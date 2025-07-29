@@ -1,0 +1,108 @@
+#Generating source browse information for project IAR_Proj_RN8611_RN7306_IOTMeter
+
+
+#Abbreviations
+cc = D$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.3\common\bin\SourceIndexer.exe
+ll = D$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.3\common\bin\PbdLink.exe
+bd = D$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.3\common\bin\makeBrowseData.exe
+
+
+
+#Rules
+rule index
+  depfile = $out.dep
+  command = $cc -out=$out -f $in
+rule link
+  command = $ll -M $out $in
+rule browsedata
+  command = $bd $in -output  $out
+
+
+
+#Build steps
+build app_rn7306.pbi : index app_rn7306.xcl
+build Bkgrd.pbi : index Bkgrd.xcl
+build Dl645_ICEsam.pbi : index Dl645_ICEsam.xcl
+build Dl645B_Com.pbi : index Dl645B_Com.xcl
+build Dl698_EsamOp.pbi : index Dl698_EsamOp.xcl
+build Energy.pbi : index Energy.xcl
+build Event.pbi : index Event.xcl
+build File.pbi : index File.xcl
+build Freeze.pbi : index Freeze.xcl
+build Globals.pbi : index Globals.xcl
+build main.pbi : index main.xcl
+build Measure.pbi : index Measure.xcl
+build Memory.pbi : index Memory.xcl
+build output.pbi : index output.xcl
+build Power_Up_Down.pbi : index Power_Up_Down.xcl
+build Scom.pbi : index Scom.xcl
+build Secret.pbi : index Secret.xcl
+build SysConst.pbi : index SysConst.xcl
+build AT45DB642D.pbi : index AT45DB642D.xcl
+build BSP_Esam.pbi : index BSP_Esam.xcl
+build BSP_IIC.pbi : index BSP_IIC.xcl
+build BSP_MultiFunPort.pbi : index BSP_MultiFunPort.xcl
+build BSP_Relay.pbi : index BSP_Relay.xcl
+build BSP_Spi.pbi : index BSP_Spi.xcl
+build BSP_Tmp.pbi : index BSP_Tmp.xcl
+build BSP_Uart.pbi : index BSP_Uart.xcl
+build Drive_AllINT.pbi : index Drive_AllINT.xcl
+build Drive_Clock.pbi : index Drive_Clock.xcl
+build FIFO.pbi : index FIFO.xcl
+build Fm24Cxx.pbi : index Fm24Cxx.xcl
+build Key.pbi : index Key.xcl
+build Misc.pbi : index Misc.xcl
+build MyMath.pbi : index MyMath.xcl
+build RN7306.pbi : index RN7306.xcl
+build xTarget.pbi : index xTarget.xcl
+build core_cm0.pbi : index core_cm0.xcl
+build system_RN8XXX_V2.pbi : index system_RN8XXX_V2.xcl
+build Rn8xxx_Common.pbi : index Rn8xxx_Common.xcl
+build Rn8xxx_DSP.pbi : index Rn8xxx_DSP.xcl
+build Rn8xxx_GPIO.pbi : index Rn8xxx_GPIO.xcl
+build Rn8xxx_IIC.pbi : index Rn8xxx_IIC.xcl
+build Rn8xxx_INTC.pbi : index Rn8xxx_INTC.xcl
+build Rn8xxx_ISO7816.pbi : index Rn8xxx_ISO7816.xcl
+build Rn8xxx_KBI.pbi : index Rn8xxx_KBI.xcl
+build Rn8xxx_Lcd.pbi : index Rn8xxx_Lcd.xcl
+build Rn8xxx_LvdCmpSar.pbi : index Rn8xxx_LvdCmpSar.xcl
+build Rn8xxx_M2M.pbi : index Rn8xxx_M2M.xcl
+build Rn8xxx_RTC.pbi : index Rn8xxx_RTC.xcl
+build Rn8xxx_Spi.pbi : index Rn8xxx_Spi.xcl
+build Rn8xxx_SysTickCortexM0.pbi : index Rn8xxx_SysTickCortexM0.xcl
+build Rn8xxx_TC.pbi : index Rn8xxx_TC.xcl
+build Rn8xxx_Uart.pbi : index Rn8xxx_Uart.xcl
+build Dl698_AL.pbi : index Dl698_AL.xcl
+build Dl698_Crc.pbi : index Dl698_Crc.xcl
+build Dl698_DL.pbi : index Dl698_DL.xcl
+build Dl698_Globals.pbi : index Dl698_Globals.xcl
+build Dl698_ICData.pbi : index Dl698_ICData.xcl
+build Dl698_Memory.pbi : index Dl698_Memory.xcl
+build Dl698_Scom.pbi : index Dl698_Scom.xcl
+build Dl698_UserData.pbi : index Dl698_UserData.xcl
+build Dl698_UserData_Encode645to698.pbi : index Dl698_UserData_Encode645to698.xcl
+build Dl698_UserData_Oad2DI.pbi : index Dl698_UserData_Oad2DI.xcl
+build Dl698AL_Act.pbi : index Dl698AL_Act.xcl
+build Dl698AL_asn1.pbi : index Dl698AL_asn1.xcl
+build Dl698AL_Conn.pbi : index Dl698AL_Conn.xcl
+build Dl698AL_Get.pbi : index Dl698AL_Get.xcl
+build Dl698AL_process.pbi : index Dl698AL_process.xcl
+build Dl698AL_Report.pbi : index Dl698AL_Report.xcl
+build Dl698AL_Set.pbi : index Dl698AL_Set.xcl
+build Rn_Assert.pbi : index Rn_Assert.xcl
+build SEGGER_RTT.pbi : index SEGGER_RTT.xcl
+build SEGGER_RTT_printf.pbi : index SEGGER_RTT_printf.xcl
+build Harmonic.pbi : index Harmonic.xcl
+build IAR_Proj_RN8611_RN7306_IOTMeter_part0.pbi : link app_rn7306.pbi Bkgrd.pbi Dl645_ICEsam.pbi Dl645B_Com.pbi Dl698_EsamOp.pbi Energy.pbi Event.pbi File.pbi Freeze.pbi
+build IAR_Proj_RN8611_RN7306_IOTMeter_part1.pbi : link Globals.pbi main.pbi Measure.pbi Memory.pbi output.pbi Power_Up_Down.pbi Scom.pbi Secret.pbi SysConst.pbi
+build IAR_Proj_RN8611_RN7306_IOTMeter_part2.pbi : link AT45DB642D.pbi BSP_Esam.pbi BSP_IIC.pbi BSP_MultiFunPort.pbi BSP_Relay.pbi BSP_Spi.pbi BSP_Tmp.pbi BSP_Uart.pbi Drive_AllINT.pbi
+build IAR_Proj_RN8611_RN7306_IOTMeter_part3.pbi : link Drive_Clock.pbi FIFO.pbi Fm24Cxx.pbi Key.pbi Misc.pbi MyMath.pbi RN7306.pbi xTarget.pbi core_cm0.pbi
+build IAR_Proj_RN8611_RN7306_IOTMeter_part4.pbi : link system_RN8XXX_V2.pbi Rn8xxx_Common.pbi Rn8xxx_DSP.pbi Rn8xxx_GPIO.pbi Rn8xxx_IIC.pbi Rn8xxx_INTC.pbi Rn8xxx_ISO7816.pbi Rn8xxx_KBI.pbi Rn8xxx_Lcd.pbi
+build IAR_Proj_RN8611_RN7306_IOTMeter_part5.pbi : link Rn8xxx_LvdCmpSar.pbi Rn8xxx_M2M.pbi Rn8xxx_RTC.pbi Rn8xxx_Spi.pbi Rn8xxx_SysTickCortexM0.pbi Rn8xxx_TC.pbi Rn8xxx_Uart.pbi Dl698_AL.pbi Dl698_Crc.pbi
+build IAR_Proj_RN8611_RN7306_IOTMeter_part6.pbi : link Dl698_DL.pbi Dl698_Globals.pbi Dl698_ICData.pbi Dl698_Memory.pbi Dl698_Scom.pbi Dl698_UserData.pbi Dl698_UserData_Encode645to698.pbi Dl698_UserData_Oad2DI.pbi Dl698AL_Act.pbi
+build IAR_Proj_RN8611_RN7306_IOTMeter_part7.pbi : link Dl698AL_asn1.pbi Dl698AL_Conn.pbi Dl698AL_Get.pbi Dl698AL_process.pbi Dl698AL_Report.pbi Dl698AL_Set.pbi Rn_Assert.pbi SEGGER_RTT.pbi SEGGER_RTT_printf.pbi
+build IAR_Proj_RN8611_RN7306_IOTMeter_part8.pbi : link Harmonic.pbi
+build IAR_Proj_RN8611_RN7306_IOTMeter.pbd : link IAR_Proj_RN8611_RN7306_IOTMeter_part0.pbi IAR_Proj_RN8611_RN7306_IOTMeter_part1.pbi IAR_Proj_RN8611_RN7306_IOTMeter_part2.pbi IAR_Proj_RN8611_RN7306_IOTMeter_part3.pbi IAR_Proj_RN8611_RN7306_IOTMeter_part4.pbi IAR_Proj_RN8611_RN7306_IOTMeter_part5.pbi IAR_Proj_RN8611_RN7306_IOTMeter_part6.pbi IAR_Proj_RN8611_RN7306_IOTMeter_part7.pbi IAR_Proj_RN8611_RN7306_IOTMeter_part8.pbi
+build IAR_Proj_RN8611_RN7306_IOTMeter.pbw : browsedata IAR_Proj_RN8611_RN7306_IOTMeter.pbd
+
+

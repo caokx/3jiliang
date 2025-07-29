@@ -1,0 +1,19 @@
+__setup ()
+{
+__var tmp;
+    __writeMemory32(0x00000082, 0x40034030, "Memory");  //
+    __writeMemory32(0x00000000, 0x40034018, "Memory");  // SYSMEMREMAP = 0
+}
+
+execUserFlashInit()
+{
+    __message "------- Prepare for flashloader -------";
+    __setup();
+    __message "------- End of Prepare for flashloader -------";
+}
+
+execUserPreload()
+{
+    __message "------- Prepare for debug -------";
+    __setup();
+}

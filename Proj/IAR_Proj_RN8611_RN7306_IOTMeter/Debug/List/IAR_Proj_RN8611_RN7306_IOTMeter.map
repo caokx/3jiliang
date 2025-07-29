@@ -1,0 +1,2288 @@
+###############################################################################
+#
+# IAR ELF Linker V8.40.2.214/W32 for ARM                  25/Jul/2025  14:39:12
+# Copyright 2007-2019 IAR Systems AB.
+#
+#    Output file  =
+#        D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Exe\IAR_Proj_RN8611_RN7306_IOTMeter.out
+#    Map file     =
+#        D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\List\IAR_Proj_RN8611_RN7306_IOTMeter.map
+#    Command line =
+#        -f C:\Users\17474\AppData\Local\Temp\EW6B42.tmp ("D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\app_rn7306.o"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\AT45DB642D.o"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\Bkgrd.o"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\BSP_Esam.o"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\BSP_IIC.o"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\BSP_MultiFunPort.o"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\BSP_Relay.o"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\BSP_Spi.o"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\BSP_Tmp.o"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\BSP_Uart.o"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\core_cm0.o"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\Dl645_ICEsam.o"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\Dl645B_Com.o"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\Dl698_AL.o"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\Dl698_Crc.o"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\Dl698_DL.o"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\Dl698_EsamOp.o"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\Dl698_Globals.o"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\Dl698_ICData.o"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\Dl698_Memory.o"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\Dl698_Scom.o"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\Dl698_UserData.o"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\Dl698_UserData_Encode645to698.o"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\Dl698_UserData_Oad2DI.o"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\Dl698AL_Act.o"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\Dl698AL_asn1.o"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\Dl698AL_Conn.o"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\Dl698AL_Get.o"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\Dl698AL_process.o"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\Dl698AL_Report.o"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\Dl698AL_Set.o"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\Drive_AllINT.o"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\Drive_Clock.o"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\Energy.o"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\Event.o"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\FIFO.o"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\File.o"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\Fm24Cxx.o"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\Freeze.o"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\Globals.o"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\Harmonic.o"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\Key.o"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\main.o"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\Measure.o"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\Memory.o"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\Misc.o"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\MyMath.o"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\output.o"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\Power_Up_Down.o"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\RN7306.o"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\Rn8xxx_Common.o"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\Rn8xxx_DSP.o"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\Rn8xxx_GPIO.o"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\Rn8xxx_IIC.o"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\Rn8xxx_INTC.o"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\Rn8xxx_ISO7816.o"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\Rn8xxx_KBI.o"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\Rn8xxx_Lcd.o"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\Rn8xxx_LvdCmpSar.o"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\Rn8xxx_M2M.o"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\Rn8xxx_RTC.o"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\Rn8xxx_Spi.o"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\Rn8xxx_SysTickCortexM0.o"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\Rn8xxx_TC.o"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\Rn8xxx_Uart.o"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\RN_Lib\IAR_Lib\rn8xxx_v2_lib.a"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\Rn_Assert.o"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\Scom.o"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\Secret.o"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\SEGGER_RTT.o"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\SEGGER_RTT_printf.o"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\startup_RN8xxx_v2.o"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\SysConst.o"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\system_RN8XXX_V2.o"
+#        "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj\xTarget.o"
+#        --no_out_extension -o "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Exe\IAR_Proj_RN8611_RN7306_IOTMeter.out"
+#        --map "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\List\IAR_Proj_RN8611_RN7306_IOTMeter.map"
+#        --config "D:\IAR
+#        Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Support\Icf\RN8611GW_V2.icf"
+#        --semihosting --entry __iar_program_start --vfe --enable_stack_usage
+#        --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** MESSAGES
+***
+
+Warning[Lt009]: Inconsistent wchar_t size
+            rtc.o(rn8xxx_v2_lib.a) and 5 other objects in rn8xxx_v2_lib.a have
+                      wchar_t size 16 bits
+            app_rn7306.o and 90 other objects, some of them in dl6M_tln.a and
+                      14 other libraries have wchar_t size 32 bits
+Warning[Ls016]: [stack usage analysis] the program contains at least one
+          indirect call. Example: from "eepromProgram". A complete list of such
+          functions is in the map file.
+
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x0 { section .intvec };
+"P1":  place in [from 0x0 to 0x3'dfff] { ro };
+define block HEAP with size = 2K, alignment = 8 { };
+define block CSTACK with size = 3328, alignment = 8 { };
+"P2":  place in [from 0x1000'0000 to 0x1001'8000] {
+          rw, block HEAP, block CSTACK };
+"P3":  place in [from 0x3'e000 to 0x4'0000] { ro section ownsection };
+initialize by copy { rw };
+
+  Section            Kind         Address      Size  Object
+  -------            ----         -------      ----  ------
+"A0":                                          0xc0
+  .intvec            ro code          0x0      0xc0  startup_RN8xxx_v2.o [1]
+                                   - 0xc0      0xc0
+
+"P1":                                      0x3'9cd5
+  .text              ro code         0xc0    0xd4dc  Dl698_UserData_Oad2DI.o [1]
+  .text              ro code       0xd59c     0xac4  MyMath.o [1]
+  .text              ro code       0xe060     0xc0c  Energy.o [1]
+  .text              ro code       0xec6c    0x1036  Dl698AL_asn1.o [1]
+  .text              ro code       0xfca2      0xe0  I32DivModFast.o [5]
+  .text              ro code       0xfd82      0x7e  lz77_init_single.o [5]
+  .text              ro code       0xfe00     0x5c4  File.o [1]
+  .text              ro code     0x1'03c4      0x4e  ABImemcpy.o [5]
+  .rodata            const       0x1'0412       0x2  Dl698_ICData.o [1]
+  .text              ro code     0x1'0414     0x788  xTarget.o [1]
+  .text              ro code     0x1'0b9c    0x137c  Dl698_UserData.o [1]
+  .text              ro code     0x1'1f18      0x16  uread4.o [5]
+  .rodata            const       0x1'1f2e       0x2  Dl698_ICData.o [1]
+  .text              ro code     0x1'1f30      0x36  IxxToFlt.o [3]
+  .text              ro code     0x1'1f66      0xaa  FltDiv.o [3]
+  .text              ro code     0x1'2010      0xb0  FltMul.o [3]
+  .text              ro code     0x1'20c0      0x32  FltToDbl.o [3]
+  .text              ro code     0x1'20f2     0x1b4  DblAddSub.o [3]
+  .text              ro code     0x1'22a6     0x184  DblMul.o [3]
+  .rodata            const       0x1'242a       0x2  Dl698_ICData.o [1]
+  .text              ro code     0x1'242c      0x52  DblToI32.o [3]
+  .rodata            const       0x1'247e       0x2  Dl698_ICData.o [1]
+  .text              ro code     0x1'2480    0x2ccc  Event.o [1]
+  .text              ro code     0x1'514c     0x184  Globals.o [1]
+  .text              ro code     0x1'52d0     0xca0  Dl698_EsamOp.o [1]
+  .text              ro code     0x1'5f70     0x20c  Dl698_Memory.o [1]
+  .text              ro code     0x1'617c      0x14  uwrite4.o [5]
+  .text              ro code     0x1'6190    0x1d14  Dl698AL_process.o [1]
+  .text              ro code     0x1'7ea4     0x750  Dl698_AL.o [1]
+  .text              ro code     0x1'85f4     0x718  Freeze.o [1]
+  .text              ro code     0x1'8d0c     0x82c  Secret.o [1]
+  .text              ro code     0x1'9538      0x52  ABImemset.o [5]
+  .rodata            const       0x1'958a       0x2  Dl698_ICData.o [1]
+  .text              ro code     0x1'958c    0x6c20  Dl645B_Com.o [1]
+  .text              ro code     0x2'01ac      0xa4  Rn8xxx_Common.o [1]
+  .text              ro code     0x2'0250    0x4e04  Measure.o [1]
+  .text              ro code     0x2'5054      0xa8  I64DivMod.o [5]
+  .text              ro code     0x2'50fc       0x2  IntDivZer.o [5]
+  .rodata            const       0x2'50fe       0x2  Dl698_ICData.o [1]
+  .text              ro code     0x2'5100     0x254  Memory.o [1]
+  .text              ro code     0x2'5354      0x9c  Drive_Clock.o [1]
+  .text              ro code     0x2'53f0     0x7cc  Rn8xxx_GPIO.o [1]
+  .text              ro code     0x2'5bbc     0x2d0  Rn8xxx_LvdCmpSar.o [1]
+  .text              ro code     0x2'5e8c     0x194  Rn8xxx_TC.o [1]
+  .text              ro code     0x2'6020     0x4b4  Rn8xxx_RTC.o [1]
+  .text              ro code     0x2'64d4     0x3fc  Fm24Cxx.o [1]
+  .text              ro code     0x2'68d0     0x58c  AT45DB642D.o [1]
+  .text              ro code     0x2'6e5c      0xf0  nvm.o [4]
+  .text              ro code     0x2'6f4c      0x2c  Misc.o [1]
+  .text              ro code     0x2'6f78     0xea0  Power_Up_Down.o [1]
+  .text              ro code     0x2'7e18     0x164  Rn8xxx_INTC.o [1]
+  .text              ro code     0x2'7f7c      0x90  Rn8xxx_KBI.o [1]
+  .text              ro code     0x2'800c     0xb70  Bkgrd.o [1]
+  .text              ro code     0x2'8b7c    0x1218  Dl698_DL.o [1]
+  .text              ro code     0x2'9d94     0x178  BSP_Esam.o [1]
+  .text              ro code     0x2'9f0c     0x804  Dl698AL_Conn.o [1]
+  .text              ro code     0x2'a710     0x8ac  Dl698AL_Get.o [1]
+  .text              ro code     0x2'afbc     0x3bc  Dl698AL_Set.o [1]
+  .text              ro code     0x2'b378     0x520  Dl698AL_Act.o [1]
+  .text              ro code     0x2'b898     0x368  Dl698AL_Report.o [1]
+  .text              ro code     0x2'bc00     0x41a  SEGGER_RTT_printf.o [1]
+  .text              ro code     0x2'c01a       0x8  abs.o [2]
+  .rodata            const       0x2'c022       0x2  Dl698_ICData.o [1]
+  .text              ro code     0x2'c024     0x3b8  RN7306.o [1]
+  .text              ro code     0x2'c3dc      0xc2  DblDiv.o [3]
+  .text              ro code     0x2'c49e      0x62  DblToFlt.o [3]
+  .text              ro code     0x2'c500      0x28  FltCmpGe.o [3]
+  .text              ro code     0x2'c528     0x120  FltAddSub.o [3]
+  .text              ro code     0x2'c648      0x26  FltToU32.o [3]
+  .rodata            const       0x2'c66e       0x2  Dl698_ICData.o [1]
+  .text              ro code     0x2'c670    0x10e8  Harmonic.o [1]
+  .text              ro code     0x2'd758     0x154  rtc.o [4]
+  .text              ro code     0x2'd8ac      0x88  IxxToDbl.o [3]
+  .text              ro code     0x2'd934     0xacc  Dl645_ICEsam.o [1]
+  .text              ro code     0x2'e400     0xdec  app_rn7306.o [1]
+  .text              ro code     0x2'f1ec     0x206  Rn8xxx_Spi.o [1]
+  .text              ro code     0x2'f3f2      0xc0  sqrt.o [3]
+  .rodata            const       0x2'f4b2       0x2  Dl698_ICData.o [1]
+  .text              ro code     0x2'f4b4      0x60  Rn8xxx_M2M.o [1]
+  .text              ro code     0x2'f514      0x20  FltCmpEq.o [3]
+  .text              ro code     0x2'f534      0x3a  FltToS32.o [3]
+  .rodata            const       0x2'f56e       0x2  Dl698_ICData.o [1]
+  .text              ro code     0x2'f570      0x32  I64Mul.o [5]
+  .rodata            const       0x2'f5a2       0x2  Dl698_ICData.o [1]
+  .text              ro code     0x2'f5a4       0x2  I64DivZer.o [5]
+  .rodata            const       0x2'f5a6       0x2  Dl698_ICData.o [1]
+  .text              ro code     0x2'f5a8     0xbc4  sysctrl.o [4]
+  .text              ro code     0x3'016c      0x66  system_RN8XXX_V2.o [1]
+  .rodata            const       0x3'01d2       0x2  Dl698_ICData.o [1]
+  .text              ro code     0x3'01d4      0x1e  memcmp.o [5]
+  .rodata            const       0x3'01f2       0x2  Dl698_ICData.o [1]
+  .text              ro code     0x3'01f4     0x2b6  BSP_IIC.o [1]
+  .rodata            const       0x3'04aa       0x2  Dl698_ICData.o [1]
+  .text              ro code     0x3'04ac     0x38c  BSP_Spi.o [1]
+  .text              ro code     0x3'0838     0x588  utils.o [4]
+  .text              ro code     0x3'0dc0     0x5c8  eepromProgram.o [4]
+  .text              ro code     0x3'1388     0x844  BSP_Tmp.o [1]
+  .text              ro code     0x3'1bcc      0x14  Rn8xxx_Lcd.o [1]
+  .text              ro code     0x3'1be0     0x3f4  output.o [1]
+  .text              ro code     0x3'1fd4     0x290  Key.o [1]
+  .text              ro code     0x3'2264     0xa80  sysupdate.o [4]
+  .text              ro code     0x3'2ce4     0x370  BSP_Uart.o [1]
+  .text              ro code     0x3'3054     0xa54  Scom.o [1]
+  .text              ro code     0x3'3aa8      0x44  Dl698_Crc.o [1]
+  .text              ro code     0x3'3aec     0x240  Dl698_Scom.o [1]
+  .text              ro code     0x3'3d2c     0x150  Rn8xxx_ISO7816.o [1]
+  .text              ro code     0x3'3e7c     0x1e8  SEGGER_RTT.o [1]
+  .text              ro code     0x3'4064     0x760  Rn8xxx_DSP.o [1]
+  .text              ro code     0x3'47c4     0x168  asin64.o [3]
+  .text              ro code     0x3'492c      0x32  DblCmpLe.o [3]
+  .rodata            const       0x3'495e       0x2  Dl698_ICData.o [1]
+  .text              ro code     0x3'4960      0x84  BSP_Relay.o [1]
+  .text              ro code     0x3'49e4     0x258  Rn8xxx_Uart.o [1]
+  .text              ro code     0x3'4c3c      0xd0  FIFO.o [1]
+  .text              ro code     0x3'4d0c      0x74  strcpy.o [5]
+  .text              ro code     0x3'4d80     0x22c  iar_Atan64.o [3]
+  .rodata            const       0x3'4fac    0x1798  Rn8xxx_GPIO.o [1]
+  .rodata            const       0x3'6744     0x3d8  Dl698_UserData_Oad2DI.o [1]
+  .text              ro code     0x3'6b1c     0x334  Drive_AllINT.o [1]
+  .rodata            const       0x3'6e50     0x2a0  Energy.o [1]
+  .rodata            const       0x3'70f0     0x200  Dl698_Crc.o [1]
+  .rodata            const       0x3'72f0     0x1ec  Harmonic.o [1]
+  .rodata            const       0x3'74dc     0x1d0  Dl645B_Com.o [1]
+  .rodata            const       0x3'76ac     0x198  File.o [1]
+  .rodata            const       0x3'7844     0x174  Dl698_UserData_Oad2DI.o [1]
+  .rodata            const       0x3'79b8     0x15c  Dl698_UserData_Oad2DI.o [1]
+  .rodata            const       0x3'7b14     0x15c  File.o [1]
+  .rodata            const       0x3'7c70     0x138  Dl698_UserData_Oad2DI.o [1]
+  .rodata            const       0x3'7da8     0x100  MyMath.o [1]
+  .rodata            const       0x3'7ea8     0x100  MyMath.o [1]
+  .rodata            const       0x3'7fa8      0xf8  Harmonic.o [1]
+  .rodata            const       0x3'80a0      0xf0  sysupdate.o [4]
+  .rodata            const       0x3'8190      0xe0  Dl698_UserData_Oad2DI.o [1]
+  .rodata            const       0x3'8270      0xe0  File.o [1]
+  .rodata            const       0x3'8350      0xd8  File.o [1]
+  .rodata            const       0x3'8428      0xc8  File.o [1]
+  .rodata            const       0x3'84f0      0xc0  sysupdate.o [4]
+  .text              ro code     0x3'85b0      0xc0  main.o [1]
+  .rodata            const       0x3'8670      0xb8  sysupdate.o [4]
+  .rodata            const       0x3'8728      0xa0  Dl645B_Com.o [1]
+  .rodata            const       0x3'87c8      0xa0  sysupdate.o [4]
+  .rodata            const       0x3'8868      0xa0  sysupdate.o [4]
+  .rodata            const       0x3'8908      0x90  File.o [1]
+  .rodata            const       0x3'8998      0x90  File.o [1]
+  .rodata            const       0x3'8a28      0x90  Measure.o [1]
+  .rodata            const       0x3'8ab8      0x88  sysupdate.o [4]
+  .rodata            const       0x3'8b40      0x88  sysupdate.o [4]
+  .rodata            const       0x3'8bc8      0x88  sysupdate.o [4]
+  .rodata            const       0x3'8c50      0x78  Dl645B_Com.o [1]
+  .rodata            const       0x3'8cc8      0x78  File.o [1]
+  .rodata            const       0x3'8d40      0x78  File.o [1]
+  .rodata            const       0x3'8db8      0x70  File.o [1]
+  .rodata            const       0x3'8e28      0x6c  Dl698_UserData_Oad2DI.o [1]
+  .rodata            const       0x3'8e94      0x6c  Event.o [1]
+  .rodata            const       0x3'8f00      0x68  File.o [1]
+  .rodata            const       0x3'8f68      0x60  Dl698_UserData_Oad2DI.o [1]
+  .rodata            const       0x3'8fc8      0x60  File.o [1]
+  .rodata            const       0x3'9028      0x60  xTarget.o [1]
+  .rodata            const       0x3'9088      0x58  File.o [1]
+  .rodata            const       0x3'90e0      0x50  Dl698_ICData.o [1]
+  .rodata            const       0x3'9130      0x50  Dl698_ICData.o [1]
+  .rodata            const       0x3'9180      0x50  Dl698_ICData.o [1]
+  .rodata            const       0x3'91d0      0x50  Dl698_ICData.o [1]
+  .rodata            const       0x3'9220      0x50  Dl698_ICData.o [1]
+  .rodata            const       0x3'9270      0x50  File.o [1]
+  .rodata            const       0x3'92c0      0x50  File.o [1]
+  .rodata            const       0x3'9310      0x48  Dl698_ICData.o [1]
+  .rodata            const       0x3'9358      0x48  File.o [1]
+  .rodata            const       0x3'93a0      0x48  File.o [1]
+  .rodata            const       0x3'93e8      0x48  File.o [1]
+  .rodata            const       0x3'9430      0x48  File.o [1]
+  .rodata            const       0x3'9478      0x48  File.o [1]
+  .rodata            const       0x3'94c0      0x44  Dl645B_Com.o [1]
+  .rodata            const       0x3'9504      0x40  File.o [1]
+  .rodata            const       0x3'9544      0x40  Freeze.o [1]
+  .text              ro code     0x3'9584      0x3c  zero_init3.o [5]
+  .rodata            const       0x3'95c0      0x40  iar_Atan64.o [3]
+  .rodata            const       0x3'9600      0x38  File.o [1]
+  .rodata            const       0x3'9638      0x38  File.o [1]
+  .rodata            const       0x3'9670      0x38  Freeze.o [1]
+  .rodata            const       0x3'96a8      0x34  Dl698_ICData.o [1]
+  .rodata            const       0x3'96dc      0x30  File.o [1]
+  .rodata            const       0x3'970c      0x28  Event.o [1]
+  .text              ro code     0x3'9734      0x28  data_init.o [5]
+  .rodata            const       0x3'975c      0x24  Dl698_UserData_Oad2DI.o [1]
+  .iar.init_table    const       0x3'9780      0x20  - Linker created -
+  .rodata            const       0x3'97a0      0x20  Event.o [1]
+  .rodata            const       0x3'97c0      0x20  File.o [1]
+  .rodata            const       0x3'97e0      0x20  Freeze.o [1]
+  .text              ro code     0x3'9800      0x1e  cmain.o [5]
+  .text              ro code     0x3'981e       0x4  low_level_init.o [2]
+  .text              ro code     0x3'9822       0x8  exit.o [2]
+  .rodata            const       0x3'982a       0x2  Dl698_ICData.o [1]
+  .text              ro code     0x3'982c       0xa  cexit.o [5]
+  .rodata            const       0x3'9836       0x2  Dl698_ICData.o [1]
+  .text              ro code     0x3'9838      0x14  exit.o [6]
+  .rodata            const       0x3'984c      0x1c  Secret.o [1]
+  .rodata            const       0x3'9868      0x18  Dl645B_Com.o [1]
+  .rodata            const       0x3'9880      0x18  MyMath.o [1]
+  .rodata            const       0x3'9898      0x18  Secret.o [1]
+  .rodata            const       0x3'98b0      0x18  sysctrl.o [4]
+  .rodata            const       0x3'98c8      0x18  sysctrl.o [4]
+  .rodata            const       0x3'98e0      0x18  sysctrl.o [4]
+  .rodata            const       0x3'98f8      0x18  sysctrl.o [4]
+  .rodata            const       0x3'9910      0x18  sysctrl.o [4]
+  .rodata            const       0x3'9928      0x18  utils.o [4]
+  .rodata            const       0x3'9940      0x18  utils.o [4]
+  .rodata            const       0x3'9958      0x14  BSP_Relay.o [1]
+  .rodata            const       0x3'996c      0x14  Dl698_ICData.o [1]
+  .rodata            const       0x3'9980      0x14  Dl698_ICData.o [1]
+  .rodata            const       0x3'9994      0x14  Dl698_ICData.o [1]
+  .rodata            const       0x3'99a8      0x14  Dl698_ICData.o [1]
+  .rodata            const       0x3'99bc      0x14  main.o [1]
+  .rodata            const       0x3'99d0      0x14  main.o [1]
+  .rodata            const       0x3'99e4      0x14  utils.o [4]
+  .rodata            const       0x3'99f8      0x14  utils.o [4]
+  .rodata            const       0x3'9a0c      0x10  BSP_Spi.o [1]
+  .rodata            const       0x3'9a1c      0x10  Dl698_ICData.o [1]
+  .rodata            const       0x3'9a2c      0x10  Dl698_UserData_Oad2DI.o [1]
+  .rodata            const       0x3'9a3c      0x10  File.o [1]
+  .rodata            const       0x3'9a4c      0x10  main.o [1]
+  .rodata            const       0x3'9a5c      0x10  MyMath.o [1]
+  .rodata            const       0x3'9a6c      0x10  SEGGER_RTT_printf.o [1]
+  .rodata            const       0x3'9a7c      0x10  SysConst.o [1]
+  .rodata            const       0x3'9a8c      0x10  sysctrl.o [4]
+  .text              ro code     0x3'9a9c      0x10  startup_RN8xxx_v2.o [1]
+  .rodata            const       0x3'9aac       0xc  Dl645B_Com.o [1]
+  .rodata            const       0x3'9ab8       0xc  Dl645B_Com.o [1]
+  .rodata            const       0x3'9ac4       0xc  Dl645B_Com.o [1]
+  .rodata            const       0x3'9ad0       0xc  Dl698_ICData.o [1]
+  .rodata            const       0x3'9adc       0xc  Dl698_ICData.o [1]
+  .rodata            const       0x3'9ae8       0xc  Dl698_ICData.o [1]
+  .rodata            const       0x3'9af4       0xc  Dl698_ICData.o [1]
+  .rodata            const       0x3'9b00       0xc  Dl698_ICData.o [1]
+  .rodata            const       0x3'9b0c       0xc  Dl698_ICData.o [1]
+  .rodata            const       0x3'9b18       0xc  Event.o [1]
+  .rodata            const       0x3'9b24       0xc  Scom.o [1]
+  .rodata            const       0x3'9b30       0xc  Secret.o [1]
+  .rodata            const       0x3'9b3c       0xc  SEGGER_RTT.o [1]
+  .text              ro code     0x3'9b48       0xc  cstartup_M.o [5]
+  .rodata            const       0x3'9b54       0x8  Dl645B_Com.o [1]
+  .rodata            const       0x3'9b5c       0x8  Dl645B_Com.o [1]
+  .rodata            const       0x3'9b64       0x8  Dl645B_Com.o [1]
+  .rodata            const       0x3'9b6c       0x8  Dl645B_Com.o [1]
+  .rodata            const       0x3'9b74       0x8  Dl645B_Com.o [1]
+  .rodata            const       0x3'9b7c       0x8  Dl645B_Com.o [1]
+  .rodata            const       0x3'9b84       0x8  Dl645B_Com.o [1]
+  .rodata            const       0x3'9b8c       0x8  Dl698_EsamOp.o [1]
+  .rodata            const       0x3'9b94       0x8  Dl698_ICData.o [1]
+  .rodata            const       0x3'9b9c       0x8  Dl698_UserData.o [1]
+  .rodata            const       0x3'9ba4       0x8  Dl698_UserData.o [1]
+  .rodata            const       0x3'9bac       0x8  Dl698_UserData.o [1]
+  .rodata            const       0x3'9bb4       0x8  Dl698_UserData.o [1]
+  .rodata            const       0x3'9bbc       0x8  Dl698_UserData.o [1]
+  .rodata            const       0x3'9bc4       0x8  Dl698_UserData.o [1]
+  .rodata            const       0x3'9bcc       0x8  Dl698_UserData_Oad2DI.o [1]
+  .rodata            const       0x3'9bd4       0x8  Dl698_UserData_Oad2DI.o [1]
+  .rodata            const       0x3'9bdc       0x8  Dl698_UserData_Oad2DI.o [1]
+  .rodata            const       0x3'9be4       0x8  Event.o [1]
+  .rodata            const       0x3'9bec       0x8  File.o [1]
+  .rodata            const       0x3'9bf4       0x8  File.o [1]
+  .rodata            const       0x3'9bfc       0x8  File.o [1]
+  .rodata            const       0x3'9c04       0x8  SEGGER_RTT.o [1]
+  .rodata            const       0x3'9c0c       0x8  eepromProgram.o [4]
+  .rodata            const       0x3'9c14       0x8  eepromProgram.o [4]
+  .rodata            const       0x3'9c1c       0x4  BSP_Spi.o [1]
+  .rodata            const       0x3'9c20       0x4  BSP_Spi.o [1]
+  .rodata            const       0x3'9c24       0x4  Dl698_EsamOp.o [1]
+  .rodata            const       0x3'9c28       0x4  Dl698_EsamOp.o [1]
+  .rodata            const       0x3'9c2c       0x4  Dl698_ICData.o [1]
+  .rodata            const       0x3'9c30       0x4  Dl698_UserData.o [1]
+  .rodata            const       0x3'9c34       0x4  Dl698_UserData_Oad2DI.o [1]
+  .rodata            const       0x3'9c38       0x4  Dl698_UserData_Oad2DI.o [1]
+  .rodata            const       0x3'9c3c       0x4  SysConst.o [1]
+  .rodata            const       0x3'9c40       0x2  Dl698_UserData_Oad2DI.o [1]
+  .text              ro code     0x3'9c42       0x2  startup_RN8xxx_v2.o [1]
+  .text              ro code     0x3'9c44       0x2  startup_RN8xxx_v2.o [1]
+  .text              ro code     0x3'9c46       0x2  startup_RN8xxx_v2.o [1]
+  .text              ro code     0x3'9c48       0x2  startup_RN8xxx_v2.o [1]
+  .text              ro code     0x3'9c4a       0x2  startup_RN8xxx_v2.o [1]
+  .text              ro code     0x3'9c4c       0x2  startup_RN8xxx_v2.o [1]
+  .text              ro code     0x3'9c4e       0x2  startup_RN8xxx_v2.o [1]
+  .text              ro code     0x3'9c50       0x2  startup_RN8xxx_v2.o [1]
+  .text              ro code     0x3'9c52       0x2  startup_RN8xxx_v2.o [1]
+  .text              ro code     0x3'9c54       0x2  startup_RN8xxx_v2.o [1]
+  .text              ro code     0x3'9c56       0x2  startup_RN8xxx_v2.o [1]
+  .text              ro code     0x3'9c58       0x2  startup_RN8xxx_v2.o [1]
+  .text              ro code     0x3'9c5a       0x2  startup_RN8xxx_v2.o [1]
+  .text              ro code     0x3'9c5c       0x2  startup_RN8xxx_v2.o [1]
+  .rodata            const       0x3'9c5e       0x1  Dl698_ICData.o [1]
+  .rodata            const       0x3'9c5f       0x1  Dl698_UserData_Oad2DI.o [1]
+  .rodata            const       0x3'9c60       0x0  zero_init3.o [5]
+  .rodata            const       0x3'9c60       0x0  lz77_init_single.o [5]
+  Initializer bytes  const       0x3'9c60     0x135  <for P2-1>
+                               - 0x3'9d95  0x3'9cd5
+
+"P3":                                        0x1098
+  ownsection         const       0x3'e000     0x7d0  SysConst.o [1]
+  ownsection         const       0x3'e7d0     0x194  SysConst.o [1]
+  ownsection         const       0x3'e964     0x17c  SysConst.o [1]
+  ownsection         const       0x3'eae0      0xf4  Measure.o [1]
+  ownsection         const       0x3'ebd4      0xc8  SysConst.o [1]
+  ownsection         const       0x3'ec9c      0xac  SysConst.o [1]
+  ownsection         const       0x3'ed48      0x70  SysConst.o [1]
+  ownsection         const       0x3'edb8      0x6c  SysConst.o [1]
+  ownsection         const       0x3'ee24      0x68  SysConst.o [1]
+  ownsection         const       0x3'ee8c      0x60  SysConst.o [1]
+  ownsection         const       0x3'eeec      0x58  SysConst.o [1]
+  ownsection         const       0x3'ef44      0x3c  SysConst.o [1]
+  ownsection         const       0x3'ef80      0x38  SysConst.o [1]
+  ownsection         const       0x3'efb8      0x24  SysConst.o [1]
+  ownsection         const       0x3'efdc      0x20  Measure.o [1]
+  ownsection         const       0x3'effc      0x20  SysConst.o [1]
+  ownsection         const       0x3'f01c      0x14  SysConst.o [1]
+  ownsection         const       0x3'f030      0x14  SysConst.o [1]
+  ownsection         const       0x3'f044      0x14  SysConst.o [1]
+  ownsection         const       0x3'f058      0x14  SysConst.o [1]
+  ownsection         const       0x3'f06c      0x10  SysConst.o [1]
+  ownsection         const       0x3'f07c       0xc  SysConst.o [1]
+  ownsection         const       0x3'f088       0xc  SysConst.o [1]
+  ownsection         const       0x3'f094       0x4  SysConst.o [1]
+                               - 0x3'f098    0x1098
+
+"P2", part 1 of 3:                            0x1b8
+  P2-1                        0x1000'0000     0x1b8  <Init block>
+    .data            inited   0x1000'0000       0x4  BSP_Spi.o [1]
+    .data            inited   0x1000'0004       0x4  BSP_Uart.o [1]
+    .data            inited   0x1000'0008      0x30  Dl698_DL.o [1]
+    .data            inited   0x1000'0038      0x68  Dl698_ICData.o [1]
+    .data            inited   0x1000'00a0       0x4  Dl698_Memory.o [1]
+    .data            inited   0x1000'00a4      0x5c  Dl698_UserData.o [1]
+    .data            inited   0x1000'0100      0x44  Dl698_UserData.o [1]
+    .data            inited   0x1000'0144      0x70  Dl698_UserData.o [1]
+    .data            inited   0x1000'01b4       0x4  system_RN8XXX_V2.o [1]
+                            - 0x1000'01b8     0x1b8
+
+"P2", part 2 of 3:                           0xfc9c
+  .bss               zero     0x1000'01b8    0x3b50  Measure.o [1]
+  .bss               zero     0x1000'3d08    0x2800  Dl698_Memory.o [1]
+  .bss               zero     0x1000'6508    0x2270  Dl698_Globals.o [1]
+  .bss               zero     0x1000'8778    0x1f60  Harmonic.o [1]
+  .bss               zero     0x1000'a6d8    0x1224  Measure.o [1]
+  .bss               zero     0x1000'b8fc    0x1000  AT45DB642D.o [1]
+  .bss               zero     0x1000'c8fc     0xc00  Globals.o [1]
+  .bss               zero     0x1000'd4fc     0xc00  Measure.o [1]
+  .bss               zero     0x1000'e0fc     0x6ac  Globals.o [1]
+  .bss               zero     0x1000'e7a8     0x484  Measure.o [1]
+  .bss               zero     0x1000'ec2c     0x400  SEGGER_RTT.o [1]
+  .bss               zero     0x1000'f02c     0x1a8  Globals.o [1]
+  .bss               zero     0x1000'f1d4      0x74  Globals.o [1]
+  .bss               zero     0x1000'f248     0x1a0  Globals.o [1]
+  .bss               zero     0x1000'f3e8      0xf4  Globals.o [1]
+  .bss               zero     0x1000'f4dc      0xa8  SEGGER_RTT.o [1]
+  .bss               zero     0x1000'f584      0xa4  BSP_Tmp.o [1]
+  .bss               zero     0x1000'f628      0x9c  Dl698_UserData_Oad2DI.o [1]
+  .bss               zero     0x1000'f6c4      0x84  Globals.o [1]
+  .bss               zero     0x1000'f748      0x80  BSP_Tmp.o [1]
+  .bss               zero     0x1000'f7c8      0x74  Globals.o [1]
+  .bss               zero     0x1000'f83c      0x70  Globals.o [1]
+  .bss               zero     0x1000'f8ac      0x6c  Globals.o [1]
+  .bss               zero     0x1000'f918      0x64  Globals.o [1]
+  .bss               zero     0x1000'f97c      0x60  BSP_Tmp.o [1]
+  .bss               zero     0x1000'f9dc      0x60  BSP_Tmp.o [1]
+  .bss               zero     0x1000'fa3c      0x60  xTarget.o [1]
+  .bss               zero     0x1000'fa9c      0x58  Globals.o [1]
+  .bss               zero     0x1000'faf4      0x50  Dl698_Memory.o [1]
+  .bss               zero     0x1000'fb44      0x40  Globals.o [1]
+  .bss               zero     0x1000'fb84      0x38  Globals.o [1]
+  .bss               zero     0x1000'fbbc      0x34  Globals.o [1]
+  .bss               zero     0x1000'fbf0      0x30  FIFO.o [1]
+  .bss               zero     0x1000'fc20      0x2c  app_rn7306.o [1]
+  .bss               zero     0x1000'fc4c      0x28  Harmonic.o [1]
+  .bss               zero     0x1000'fc74      0x20  BSP_Tmp.o [1]
+  .bss               zero     0x1000'fc94      0x20  BSP_Tmp.o [1]
+  .bss               zero     0x1000'fcb4      0x20  Globals.o [1]
+  .bss               zero     0x1000'fcd4      0x20  Globals.o [1]
+  .bss               zero     0x1000'fcf4      0x1c  Harmonic.o [1]
+  .bss               zero     0x1000'fd10      0x18  Globals.o [1]
+  .bss               zero     0x1000'fd28      0x18  Harmonic.o [1]
+  .bss               zero     0x1000'fd40      0x18  Key.o [1]
+  .bss               zero     0x1000'fd58      0x14  Globals.o [1]
+  .bss               zero     0x1000'fd6c      0x14  Globals.o [1]
+  .bss               zero     0x1000'fd80      0x14  Globals.o [1]
+  .bss               zero     0x1000'fd94      0x14  Globals.o [1]
+  .bss               zero     0x1000'fda8      0x10  BSP_Tmp.o [1]
+  .bss               zero     0x1000'fdb8      0x10  Globals.o [1]
+  .bss               zero     0x1000'fdc8      0x10  RN7306.o [1]
+  .bss               zero     0x1000'fdd8      0x10  SEGGER_RTT.o [1]
+  .bss               zero     0x1000'fde8       0x8  app_rn7306.o [1]
+  .bss               zero     0x1000'fdf0       0x8  app_rn7306.o [1]
+  .bss               zero     0x1000'fdf8       0x8  app_rn7306.o [1]
+  .bss               zero     0x1000'fe00       0x8  BSP_Relay.o [1]
+  .bss               zero     0x1000'fe08       0x8  Dl698_DL.o [1]
+  .bss               zero     0x1000'fe10       0x8  Dl698_DL.o [1]
+  .bss               zero     0x1000'fe18       0x8  Globals.o [1]
+  .bss               zero     0x1000'fe20       0x8  Globals.o [1]
+  .bss               zero     0x1000'fe28       0x4  app_rn7306.o [1]
+  .bss               zero     0x1000'fe2c       0x4  Dl645B_Com.o [1]
+  .bss               zero     0x1000'fe30       0x4  Dl698_Globals.o [1]
+  .bss               zero     0x1000'fe34       0x4  Dl698_Memory.o [1]
+  .bss               zero     0x1000'fe38       0x4  Dl698AL_process.o [1]
+  .bss               zero     0x1000'fe3c       0x4  Globals.o [1]
+  .bss               zero     0x1000'fe40       0x4  sysupdate.o [4]
+  .bss               zero     0x1000'fe44       0x2  BSP_Tmp.o [1]
+  .bss               zero     0x1000'fe46       0x2  Dl698_EsamOp.o [1]
+  .bss               zero     0x1000'fe48       0x2  Drive_AllINT.o [1]
+  .bss               zero     0x1000'fe4a       0x2  Globals.o [1]
+  .bss               zero     0x1000'fe4c       0x2  xTarget.o [1]
+  .bss               zero     0x1000'fe4e       0x1  BSP_Tmp.o [1]
+  .bss               zero     0x1000'fe4f       0x1  BSP_Tmp.o [1]
+  .bss               zero     0x1000'fe50       0x1  Dl698_EsamOp.o [1]
+  .bss               zero     0x1000'fe51       0x1  Dl698_EsamOp.o [1]
+  .bss               zero     0x1000'fe52       0x1  Power_Up_Down.o [1]
+                            - 0x1000'fe53    0xfc9b
+
+"P2", part 3 of 3:                            0xe84
+  .noinit            uninit   0x1000'fe54     0x180  Globals.o [1]
+  CSTACK                      0x1000'ffd8     0xd00  <Block>
+    CSTACK           uninit   0x1000'ffd8     0xd00  <Block tail>
+                            - 0x1001'0cd8     0xe84
+
+Unused ranges:
+
+         From           To    Size
+         ----           --    ----
+     0x3'9d95     0x3'dfff  0x426b
+     0x3'f098     0x4'0000   0xf69
+  0x1001'0cd8  0x1001'8000  0x7329
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0xfc9b:
+          0x1000'01b8  0xfc9b
+
+Copy/lz77 (__iar_lz77_init_single3)
+    1 source range, total size 0x135 (70% of destination):
+             0x3'9c60   0x135
+    1 destination range, total size 0x1b8:
+          0x1000'0000   0x1b8
+
+
+*******************************************************************************
+*** STACK USAGE
+***
+
+  Call Graph Root Category  Max Use  Total Use
+  ------------------------  -------  ---------
+  Program entry              1'220      1'220
+  Uncalled function            148        592
+
+
+Program entry
+  "__iar_program_start": 0x3'9b49
+
+  Maximum call chain                            *?* 1'220  bytes
+    (** call graph contains indirect calls (example: "eepromProgram") **)
+
+    "__iar_program_start"                               0
+    "__cmain"                                           0
+    "main"                                             16
+    "fnScomPk_Exec"                                    32
+    "fnDl645_Process"                                  24
+    "fnPt_Exec"                                         8
+    "fnDl645B_Exec"                                    24
+    "fnDl645B_RxAnalyse"                                8
+    "fnDl645B_Unpack11"                                40
+    "fnDl645_GetRmEgSh"                               104
+    "fnDl645_GetRmEgShItem"                            72
+    "fnGet_DispData"                                   56
+    "fnGet_EvtRecord"                                 168
+    "fnDl698AL_Get_OIOpSec"                            16
+    "fnDl698AL_Get_OISec"                               8
+    "fnRead_FormulationSecPar"                        272
+    "fnFile_Read"                                      16
+    "fnMemory_Read"                                     8
+    "fnSocEE_Read"                                     40
+    "fnOperateSocEE"                                   32
+    "eepromProgram"                                    56
+    "__eepromProgram_9103c"                           184
+    "__checkFlag" in eepromProgram.o [4]               24
+    "__swDelay" in eepromProgram.o [4]                  8
+    "__acqCorefre" in eepromProgram.o [4]               4
+
+Uncalled function
+  "CMP_HANDLER": 0x3'6c9d
+
+  Maximum call chain                                4  bytes
+
+    "CMP_HANDLER"                                   4
+
+Uncalled function
+  "EXT1_HANDLER": 0x3'6be3
+
+  Maximum call chain                                0  bytes
+
+    "EXT1_HANDLER"                                  0
+
+Uncalled function
+  "EXT3_HANDLER": 0x3'6bf9
+
+  Maximum call chain                                0  bytes
+
+    "EXT3_HANDLER"                                  0
+
+Uncalled function
+  "EXT4_HANDLER": 0x3'6c01
+
+  Maximum call chain                               16  bytes
+
+    "EXT4_HANDLER"                                 16
+    "fnMeasure_DMAReadWaveData"                     0
+
+Uncalled function
+  "EXT6_HANDLER": 0x3'6c0f
+
+  Maximum call chain                                0  bytes
+
+    "EXT6_HANDLER"                                  0
+
+Uncalled function
+  "EXT7_HANDLER": 0x3'6c17
+
+  Maximum call chain                                0  bytes
+
+    "EXT7_HANDLER"                                  0
+
+Uncalled function
+  "HardFault_Handler": 0x3'6dc9
+
+  Maximum call chain                                0  bytes
+
+    "HardFault_Handler"                             0
+
+Uncalled function
+  "ISO78161_HANDLER": 0x3'6ce1
+
+  Maximum call chain                               16  bytes
+
+    "ISO78161_HANDLER"                             16
+
+Uncalled function
+  "KBI_HANDLER": 0x3'6d3d
+
+  Maximum call chain                               12  bytes
+
+    "KBI_HANDLER"                                  12
+
+Uncalled function
+  "RTC_HANDLER": 0x3'6da1
+
+  Maximum call chain                               80  bytes
+
+    "RTC_HANDLER"                                  16
+    "fnSysDateTimes"                               24
+    "Rn8xxx_RTC_Read"                              40
+    "memcmp"                                        0
+
+Uncalled function
+  "SPI1_HANDLER": 0x3'6c47
+
+  Maximum call chain                              112  bytes
+
+    "SPI1_HANDLER"                                 24
+    "fnScomSpi_Init"                               76
+    "__aeabi_memcpy4"                              12
+
+Uncalled function
+  "SPI_HANDLER": 0x3'6c1f
+
+  Maximum call chain                              116  bytes
+
+    "SPI_HANDLER"                                  24
+    "fnWaveHsdcSpi_AdcCheck"                       32
+    "fnWaveHsdcSpi_ToHmonic"                       16
+    "Rn8xxx_M2M_Move"                              16
+    "fnRegState_Detect"                            24
+    "SystemDelayUs"                                 4
+
+Uncalled function
+  "TC0_HANDLER": 0x3'6b1d
+
+  Maximum call chain                            *?* 72  bytes
+    (** call graph contains indirect calls (example: "fnRN8302_Read") **)
+
+    "TC0_HANDLER"                                    8
+    "fnWaveHfrmsSmple"                              32
+    "fnRN8302_Read"                                 32
+
+Uncalled function
+  "TC1_HANDLER": 0x3'6b51
+
+  Maximum call chain                                0  bytes
+
+    "TC1_HANDLER"                                   0
+
+Uncalled function
+  "UART0_HANDLER": 0x3'6b59
+
+  Maximum call chain                              148  bytes
+
+    "UART0_HANDLER"                                32
+    "fnScomUart_Init"                              56
+    "BSP_Uart_DMAInit"                             32
+    "Rn8xxx_UART_DMAInit"                          24
+    "Rn8xxx_Uart_GetRegAddr"                        4
+
+Uncalled function
+  "UART1_HANDLER": 0x3'6bc3
+
+  Maximum call chain                                0  bytes
+
+    "UART1_HANDLER"                                 0
+
+Uncalled function
+  "UART3_HANDLER": 0x3'6bcb
+
+  Maximum call chain                                0  bytes
+
+    "UART3_HANDLER"                                 0
+
+Uncalled function
+  "UART4_HANDLER": 0x3'6bd3
+
+  Maximum call chain                                0  bytes
+
+    "UART4_HANDLER"                                 0
+
+Uncalled function
+  "UART5_HANDLER": 0x3'6bdb
+
+  Maximum call chain                                0  bytes
+
+    "UART5_HANDLER"                                 0
+
+Uncalled function
+  "Rn8302Spi_ReadByte": 0x2'c395
+
+  Maximum call chain                                4  bytes
+
+    "Rn8302Spi_ReadByte"                            4
+
+Uncalled function
+  "Rn8302Spi_WriteByte": 0x2'c34d
+
+  Maximum call chain                                8  bytes
+
+    "Rn8302Spi_WriteByte"                           8
+
+Uncalled function
+  "Rn8302_SpiCS": 0x2'c331
+
+  Maximum call chain                                4  bytes
+
+    "Rn8302_SpiCS"                                  4
+
+Uncalled function
+  "SystemInit": 0x3'01d1
+
+  Maximum call chain                                0  bytes
+
+    "SystemInit"                                    0
+
+The following functions perform unknown indirect calls:
+
+  "eepromProgram": 0x2'6e5d
+  "fnRN8302_Read": 0x2'c1df
+  "fnRN8302_Write": 0x2'c035
+  "nvmWrEnable": 0x3'0b75
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                   ro code  ro data  rw data
+    ------                   -------  -------  -------
+command line/config:
+    --------------------------------------------------
+    Total:
+
+D:\IAR Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj: [1]
+    AT45DB642D.o               1'420             4'096
+    BSP_Esam.o                   376
+    BSP_IIC.o                    694
+    BSP_Relay.o                  132       20        8
+    BSP_Spi.o                    908       26        4
+    BSP_Tmp.o                  2'116               568
+    BSP_Uart.o                   880        3        4
+    Bkgrd.o                    2'928
+    Dl645B_Com.o              27'680      928        4
+    Dl645_ICEsam.o             2'764
+    Dl698AL_Act.o              1'312
+    Dl698AL_Conn.o             2'052
+    Dl698AL_Get.o              2'220
+    Dl698AL_Report.o             872
+    Dl698AL_Set.o                956
+    Dl698AL_asn1.o             4'150
+    Dl698AL_process.o          7'444                 4
+    Dl698_AL.o                 1'872
+    Dl698_Crc.o                   68      512
+    Dl698_DL.o                 4'632       34       64
+    Dl698_EsamOp.o             3'232       16        4
+    Dl698_Globals.o                              8'820
+    Dl698_ICData.o                        814      104
+    Dl698_Memory.o               524        3   10'328
+    Dl698_Scom.o                 576
+    Dl698_UserData.o           4'988      243      272
+    Dl698_UserData_Oad2DI.o   54'492    2'531      156
+    Drive_AllINT.o               820                 2
+    Drive_Clock.o                156
+    Energy.o                   3'084      672
+    Event.o                   11'468      200
+    FIFO.o                       208                48
+    File.o                     1'476    3'140
+    Fm24Cxx.o                  1'020
+    Freeze.o                   1'816      152
+    Globals.o                    388             7'398
+    Harmonic.o                 4'328      740    8'124
+    Key.o                        656                24
+    Measure.o                 19'972      420   24'056
+    Memory.o                     596
+    Misc.o                        44
+    MyMath.o                   2'756      552
+    Power_Up_Down.o            3'744                 1
+    RN7306.o                     952                16
+    Rn8xxx_Common.o              164
+    Rn8xxx_DSP.o               1'888
+    Rn8xxx_GPIO.o              1'996    6'040
+    Rn8xxx_INTC.o                356
+    Rn8xxx_ISO7816.o             336
+    Rn8xxx_KBI.o                 144
+    Rn8xxx_Lcd.o                  20
+    Rn8xxx_LvdCmpSar.o           720
+    Rn8xxx_M2M.o                  96
+    Rn8xxx_RTC.o               1'204
+    Rn8xxx_Spi.o                 518
+    Rn8xxx_TC.o                  404
+    Rn8xxx_Uart.o                600
+    SEGGER_RTT.o                 488       20    1'208
+    SEGGER_RTT_printf.o        1'050       16
+    Scom.o                     2'644       12
+    Secret.o                   2'092       64
+    SysConst.o                          3'992
+    app_rn7306.o               3'564                72
+    main.o                       192       56
+    output.o                   1'012
+    startup_RN8xxx_v2.o          236
+    system_RN8XXX_V2.o           102        3        4
+    xTarget.o                  1'928       96       98
+    --------------------------------------------------
+    Total:                   204'526   21'305   65'487
+
+dl6M_tln.a: [2]
+    abs.o                          8
+    exit.o                         8
+    low_level_init.o               4
+    --------------------------------------------------
+    Total:                        20
+
+m6M_tl.a: [3]
+    DblAddSub.o                  436
+    DblCmpLe.o                    50
+    DblDiv.o                     194
+    DblMul.o                     388
+    DblToFlt.o                    98
+    DblToI32.o                    82
+    FltAddSub.o                  288
+    FltCmpEq.o                    32
+    FltCmpGe.o                    40
+    FltDiv.o                     170
+    FltMul.o                     176
+    FltToDbl.o                    50
+    FltToS32.o                    58
+    FltToU32.o                    38
+    IxxToDbl.o                   136
+    IxxToFlt.o                    54
+    asin64.o                     360
+    iar_Atan64.o                 556       64
+    sqrt.o                       192
+    --------------------------------------------------
+    Total:                     3'398       64
+
+rn8xxx_v2_lib.a: [4]
+    eepromProgram.o            1'480       16
+    nvm.o                        240
+    rtc.o                        340
+    sysctrl.o                  3'012      136
+    sysupdate.o                2'688    1'344        4
+    utils.o                    1'416       88
+    --------------------------------------------------
+    Total:                     9'176    1'584        4
+
+rt6M_tl.a: [5]
+    ABImemcpy.o                   78
+    ABImemset.o                   82
+    I32DivModFast.o              224
+    I64DivMod.o                  168
+    I64DivZer.o                    2
+    I64Mul.o                      50
+    IntDivZer.o                    2
+    cexit.o                       10
+    cmain.o                       30
+    cstartup_M.o                  12
+    data_init.o                   40
+    lz77_init_single.o           126
+    memcmp.o                      30
+    strcpy.o                     116
+    uread4.o                      22
+    uwrite4.o                     20
+    zero_init3.o                  60
+    --------------------------------------------------
+    Total:                     1'072
+
+shb_l.a: [6]
+    exit.o                        20
+    --------------------------------------------------
+    Total:                        20
+
+    Linker created                         32    3'328
+------------------------------------------------------
+    Grand Total:             218'212   22'985   68'819
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address    Size  Type      Object
+-----                       -------    ----  ----      ------
+.iar.init_table$$Base      0x3'9780           --   Gb  - Linker created -
+.iar.init_table$$Limit     0x3'97a0           --   Gb  - Linker created -
+?main                      0x3'9801          Code  Gb  cmain.o [5]
+ASCIIParaDefault           0x3'e7d0   0x194  Data  Gb  SysConst.o [1]
+AtiveOAD                   0x3'9bb4     0x8  Data  Gb  Dl698_UserData.o [1]
+BSP_EASM_GetPower          0x2'9d95    0x14  Code  Gb  BSP_Esam.o [1]
+BSP_EsamSpi_Init           0x2'9e2f    0x62  Code  Gb  BSP_Esam.o [1]
+BSP_EsamSpi_ReadByte       0x2'9eb7     0xa  Code  Gb  BSP_Esam.o [1]
+BSP_EsamSpi_WriteByte      0x2'9ea9     0xe  Code  Gb  BSP_Esam.o [1]
+BSP_Esam_Stop              0x2'9da9    0x86  Code  Gb  BSP_Esam.o [1]
+BSP_FlashSpi_Init          0x3'04bb    0x7e  Code  Gb  BSP_Spi.o [1]
+BSP_FlashSpi_ReadByte      0x3'0619    0x82  Code  Gb  BSP_Spi.o [1]
+BSP_FlashSpi_Stop          0x3'0539    0x66  Code  Gb  BSP_Spi.o [1]
+BSP_FlashSpi_WriteByte     0x3'059f    0x7a  Code  Gb  BSP_Spi.o [1]
+BSP_ManageModuleSpi_Init
+                           0x3'0729    0xb8  Code  Gb  BSP_Spi.o [1]
+BSP_RelayInit              0x3'4961    0x7a  Code  Gb  BSP_Relay.o [1]
+BSP_SpiCtrlandDmaRxCheck
+                           0x3'07e1    0x26  Code  Gb  BSP_Spi.o [1]
+BSP_SpiId_DMAEnOrDis_Get
+                           0x3'06d1    0x58  Code  Gb  BSP_Spi.o [1]
+BSP_SpiId_Get              0x3'069b    0x36  Code  Gb  BSP_Spi.o [1]
+BSP_TxEnDis                0x3'3009    0x38  Code  Gb  BSP_Uart.o [1]
+BSP_UartId_DMAEnOrDis_Get
+                           0x3'2d29    0x58  Code  Gb  BSP_Uart.o [1]
+BSP_UartId_Get             0x3'2cf3    0x36  Code  Gb  BSP_Uart.o [1]
+BSP_Uart_DMAInit           0x3'2f51    0x34  Code  Gb  BSP_Uart.o [1]
+BSP_Uart_Init              0x3'2d81   0x1c6  Code  Gb  BSP_Uart.o [1]
+Bkgrd                   0x1000'f6c4    0x84  Data  Gb  Globals.o [1]
+BufTemp                 0x1000'c8fc   0xc00  Data  Gb  Globals.o [1]
+CAL_BUSY_TIMEOUT           0x3'9928    0x18  Data  Lc  utils.o [4]
+CMP_HANDLER                0x3'6c9d    0x44  Code  Gb  Drive_AllINT.o [1]
+CSTACK$$Base            0x1000'ffd8           --   Gb  - Linker created -
+CSTACK$$Limit           0x1001'0cd8           --   Gb  - Linker created -
+CheckRegStamp           0x1000'fe4c     0x2  Data  Gb  xTarget.o [1]
+CheckTPeriodValid          0x1'1a3d     0x4  Code  Gb  Dl698_UserData.o [1]
+CipherKeyParaDefault       0x3'9c3c     0x4  Data  Gb  SysConst.o [1]
+ComPack                 0x1000'fbbc    0x34  Data  Gb  Globals.o [1]
+ComParaDefault             0x3'9a7c    0x10  Data  Gb  SysConst.o [1]
+CommPara                0x1000'fdb8    0x10  Data  Gb  Globals.o [1]
+Conv_temp_CT7538           0x3'1589    0x36  Code  Gb  BSP_Tmp.o [1]
+CurApplyEg              0x1000'fcd4    0x20  Data  Gb  Globals.o [1]
+DispParaDefault            0x3'e000   0x7d0  Data  Gb  SysConst.o [1]
+Dl645B_RmEgSh              0x3'9868    0x18  Data  Gb  Dl645B_Com.o [1]
+Dl698_FrameCheck           0x2'8e05   0x310  Code  Gb  Dl698_DL.o [1]
+DocParaDefault             0x3'f06c    0x10  Data  Gb  SysConst.o [1]
+EEprom_Stop                0x2'68a9    0x28  Code  Gb  Fm24Cxx.o [1]
+ENERGY_Item                0x3'8190    0xe0  Data  Gb  Dl698_UserData_Oad2DI.o [1]
+ENUMERATED                 0x3'9c40     0x2  Data  Gb  Dl698_UserData_Oad2DI.o [1]
+ESAMP2Const                0x3'8f68    0x60  Data  Gb  Dl698_UserData_Oad2DI.o [1]
+EXT1_HANDLER               0x3'6be3    0x16  Code  Gb  Drive_AllINT.o [1]
+EXT3_HANDLER               0x3'6bf9     0x8  Code  Gb  Drive_AllINT.o [1]
+EXT4_HANDLER               0x3'6c01     0xe  Code  Gb  Drive_AllINT.o [1]
+EXT6_HANDLER               0x3'6c0f     0x8  Code  Gb  Drive_AllINT.o [1]
+EXT7_HANDLER               0x3'6c17     0x8  Code  Gb  Drive_AllINT.o [1]
+EgMoney                 0x1000'fb44    0x40  Data  Gb  Globals.o [1]
+Energy                  0x1000'fe54   0x180  Data  Gb  Globals.o [1]
+EnergyOpConst              0x3'6e50   0x2a0  Data  Gb  Energy.o [1]
+EvConst                    0x3'97a0    0x20  Data  Gb  Event.o [1]
+EvStatusInter           0x1000'fd80    0x14  Data  Gb  Globals.o [1]
+Event                   0x1000'fb84    0x38  Data  Gb  Globals.o [1]
+Event_Item                 0x3'975c    0x24  Data  Gb  Dl698_UserData_Oad2DI.o [1]
+EvtC7_StdRecList           0x3'970c    0x28  Data  Gb  Event.o [1]
+EvtCList2Default           0x3'f030    0x14  Data  Gb  SysConst.o [1]
+EvtCListSetPswDefault      0x3'f07c     0xc  Data  Gb  SysConst.o [1]
+EvtCfgParaDefault          0x3'f01c    0x14  Data  Gb  SysConst.o [1]
+EvtDefaultlist             0x3'edb8    0x6c  Data  Gb  SysConst.o [1]
+EvtMeterClrCListDefault
+                           0x3'ec9c    0xac  Data  Gb  SysConst.o [1]
+EvtMngPlugCListDefault     0x3'ee24    0x68  Data  Gb  SysConst.o [1]
+EvtMngUpdateCListDefault
+                           0x3'ef44    0x3c  Data  Gb  SysConst.o [1]
+EvtOpenCoverCListDefault
+                           0x3'eeec    0x58  Data  Gb  SysConst.o [1]
+EvtReportDefault           0x3'efb8    0x24  Data  Gb  SysConst.o [1]
+EvtRptData              0x1000'f83c    0x70  Data  Gb  Globals.o [1]
+EvtStdRcdList_DataType     0x3'9be4     0x8  Data  Gb  Event.o [1]
+EvtStdlist                 0x3'8e94    0x6c  Data  Gb  Event.o [1]
+FIFOMailBox             0x1000'fbf0    0x30  Data  Gb  FIFO.o [1]
+FIFO_Info                  0x3'4ced    0x1c  Code  Gb  FIFO.o [1]
+FIFO_Init                  0x3'4c55    0x32  Code  Gb  FIFO.o [1]
+FIFO_StartSend             0x3'4c87    0x66  Code  Gb  FIFO.o [1]
+FactorySoftVer             0x3'effc    0x20  Data  Gb  SysConst.o [1]
+FftCosAngle_Tab            0x3'72f0   0x1ec  Data  Gb  Harmonic.o [1]
+FftGP_Tab                  0x3'7fa8    0xf8  Data  Gb  Harmonic.o [1]
+FileInfo                   0x3'7b14   0x15c  Data  Gb  File.o [1]
+FileItemInfo_BackUpCurMoney
+                           0x3'8db8    0x70  Data  Gb  File.o [1]
+FileItemInfo_CurStat       0x3'9600    0x38  Data  Gb  File.o [1]
+FileItemInfo_EgSh          0x3'8270    0xe0  Data  Gb  File.o [1]
+FileItemInfo_EvtCfgPara
+                           0x3'92c0    0x50  Data  Gb  File.o [1]
+FileItemInfo_EvtCtxlist
+                           0x3'93e8    0x48  Data  Gb  File.o [1]
+FileItemInfo_EvtRcdHead
+                           0x3'9430    0x48  Data  Gb  File.o [1]
+FileItemInfo_EvtRecord     0x3'9478    0x48  Data  Gb  File.o [1]
+FileItemInfo_EvtReport     0x3'8350    0xd8  Data  Gb  File.o [1]
+FileItemInfo_FirmPara      0x3'76ac   0x198  Data  Gb  File.o [1]
+FileItemInfo_FrzCtxlist
+                           0x3'9bec     0x8  Data  Gb  File.o [1]
+FileItemInfo_FrzMinLineHead
+                           0x3'9504    0x40  Data  Gb  File.o [1]
+FileItemInfo_FrzRcdHead
+                           0x3'9bf4     0x8  Data  Gb  File.o [1]
+FileItemInfo_FrzRecord     0x3'9bfc     0x8  Data  Gb  File.o [1]
+FileItemInfo_HighPara      0x3'8428    0xc8  Data  Gb  File.o [1]
+FileItemInfo_HighState     0x3'8998    0x90  Data  Gb  File.o [1]
+FileItemInfo_InterTmp      0x3'9358    0x48  Data  Gb  File.o [1]
+FileItemInfo_NvRam         0x3'9a3c    0x10  Data  Gb  File.o [1]
+FileItemInfo_ParaASCII     0x3'8908    0x90  Data  Gb  File.o [1]
+FileItemInfo_ParaCipherKey
+                           0x3'9638    0x38  Data  Gb  File.o [1]
+FileItemInfo_ParaCom       0x3'96dc    0x30  Data  Gb  File.o [1]
+FileItemInfo_ParaDisp      0x3'8f00    0x68  Data  Gb  File.o [1]
+FileItemInfo_ParaDoc       0x3'93a0    0x48  Data  Gb  File.o [1]
+FileItemInfo_ParaOutput
+                           0x3'8d40    0x78  Data  Gb  File.o [1]
+FileItemInfo_ParaWaste     0x3'8fc8    0x60  Data  Gb  File.o [1]
+FileItemInfo_PowDnDataMemory
+                           0x3'9270    0x50  Data  Gb  File.o [1]
+FileItemInfo_RatePara      0x3'8cc8    0x78  Data  Gb  File.o [1]
+FileItemInfo_SecretPara
+                           0x3'9088    0x58  Data  Gb  File.o [1]
+FileItemInfo_TemperSchoolPara
+                           0x3'97c0    0x20  Data  Gb  File.o [1]
+FirmDataLen                0x3'8728    0xa0  Data  Gb  Dl645B_Com.o [1]
+FirmPara                   0x3'74dc   0x1d0  Data  Gb  Dl645B_Com.o [1]
+FirmParaDefault            0x3'eae0    0xf4  Data  Gb  Measure.o [1]
+FristPowOn                 0x3'f094     0x4  Data  Gb  SysConst.o [1]
+FrzBlock1Const             0x3'9670    0x38  Data  Gb  Freeze.o [1]
+FrzBlock2Const             0x3'9544    0x40  Data  Gb  Freeze.o [1]
+FrzDefaultlist             0x3'f088     0xc  Data  Gb  SysConst.o [1]
+FrzMinLineDefault0         0x3'f044    0x14  Data  Gb  SysConst.o [1]
+FrzMinLineDefault1         0x3'f058    0x14  Data  Gb  SysConst.o [1]
+FrzMinListDefault          0x3'ebd4    0xc8  Data  Gb  SysConst.o [1]
+Frz_Item                   0x3'9c34     0x4  Data  Gb  Dl698_UserData_Oad2DI.o [1]
+Frz_StdRecList             0x3'97e0    0x20  Data  Gb  Freeze.o [1]
+GetCodeVersion             0x3'015f     0x4  Code  Gb  sysctrl.o [4]
+GetLibVersion              0x3'0159     0x4  Code  Gb  sysctrl.o [4]
+GpioCfgSpiId               0x3'9c1c     0x4  Data  Gb  BSP_Spi.o [1]
+GpioFunFile                0x3'4fac  0x1798  Data  Gb  Rn8xxx_GPIO.o [1]
+HOSC_CYCLES                0x3'9a8c    0x10  Data  Lc  sysctrl.o [4]
+HWAllowData                0x3'8c50    0x78  Data  Gb  Dl645B_Com.o [1]
+HardFault_Handler          0x3'6dc9     0x8  Code  Gb  Drive_AllINT.o [1]
+HarmonicData            0x1000'8778  0x1f60  Data  Gb  Harmonic.o [1]
+HighParaDefault            0x3'ed48    0x70  Data  Gb  SysConst.o [1]
+HoscEnable                 0x2'f9e5    0xd6  Code  Lc  sysctrl.o [4]
+HoscValid                  0x2'f921    0xac  Code  Lc  sysctrl.o [4]
+ICEsamComm              0x1000'f02c   0x1a8  Data  Gb  Globals.o [1]
+IIC_FirmMode_ACK           0x3'02b1    0x38  Code  Gb  BSP_IIC.o [1]
+IIC_FirmMode_NOACK         0x3'02e9    0x3c  Code  Gb  BSP_IIC.o [1]
+IIC_FirmMode_ReceiveByte
+                           0x3'03df    0x7a  Code  Gb  BSP_IIC.o [1]
+IIC_FirmMode_Reset         0x3'0275    0x3c  Code  Gb  BSP_IIC.o [1]
+IIC_FirmMode_SendByte      0x3'0325    0xba  Code  Gb  BSP_IIC.o [1]
+IIC_FirmMode_Start         0x3'01f5    0x44  Code  Gb  BSP_IIC.o [1]
+IIC_FirmMode_Stop          0x3'0239    0x3c  Code  Gb  BSP_IIC.o [1]
+IIC_Tmp_FirmMode_ACK       0x3'13fd    0x32  Code  Gb  BSP_Tmp.o [1]
+IIC_Tmp_FirmMode_NOACK     0x3'142f    0x36  Code  Gb  BSP_Tmp.o [1]
+IIC_Tmp_FirmMode_ReceiveByte
+                           0x3'150d    0x7c  Code  Gb  BSP_Tmp.o [1]
+IIC_Tmp_FirmMode_SendByte
+                           0x3'1465    0xa8  Code  Gb  BSP_Tmp.o [1]
+IIC_Tmp_FirmMode_Start     0x3'1389    0x3e  Code  Gb  BSP_Tmp.o [1]
+IIC_Tmp_FirmMode_Stop      0x3'13c7    0x36  Code  Gb  BSP_Tmp.o [1]
+ISO78161_HANDLER           0x3'6ce1    0x50  Code  Gb  Drive_AllINT.o [1]
+ISO7816_ReadByte           0x3'3d2d    0x94  Code  Gb  Rn8xxx_ISO7816.o [1]
+ISO7816_WriteByte          0x3'3dc1    0x9e  Code  Gb  Rn8xxx_ISO7816.o [1]
+Inactive                0x1000'f7c8    0x74  Data  Gb  Globals.o [1]
+KBI_HANDLER                0x3'6d3d    0x52  Code  Gb  Drive_AllINT.o [1]
+Key                     0x1000'fd40    0x18  Data  Gb  Key.o [1]
+LinkSizeDefault         0x1000'0144    0x70  Data  Gb  Dl698_UserData.o [1]
+MAX_EVRECORD_TABLE         0x3'9b18     0xc  Data  Gb  Event.o [1]
+MX25LData               0x1000'b8fc  0x1000  Data  Gb  AT45DB642D.o [1]
+MeasureFirmPara         0x1000'f3e8    0xf4  Data  Gb  Globals.o [1]
+MeasureRegTmp           0x1000'f248   0x1a0  Data  Gb  Globals.o [1]
+MeasureRepairPara       0x1000'fcb4    0x20  Data  Gb  Globals.o [1]
+MeasureRms              0x1000'e0fc   0x6ac  Data  Gb  Globals.o [1]
+MiscEvRecord               0x3'9ac4     0xc  Data  Gb  Dl645B_Com.o [1]
+NVIC_DisableIRQ            0x2'6f87     0xe  Code  Lc  Power_Up_Down.o [1]
+NVIC_DisableIRQ            0x2'7e27     0xe  Code  Lc  Rn8xxx_INTC.o [1]
+NVIC_DisableIRQ            0x2'5bcb     0xe  Code  Lc  Rn8xxx_LvdCmpSar.o [1]
+NVIC_DisableIRQ            0x1'0423     0xe  Code  Lc  xTarget.o [1]
+NVIC_EnableIRQ             0x3'04ad     0xe  Code  Lc  BSP_Spi.o [1]
+NVIC_EnableIRQ             0x3'2ce5     0xe  Code  Lc  BSP_Uart.o [1]
+NVIC_EnableIRQ             0x2'0251     0xe  Code  Lc  Measure.o [1]
+NVIC_EnableIRQ             0x2'6f79     0xe  Code  Lc  Power_Up_Down.o [1]
+NVIC_EnableIRQ             0x2'7e19     0xe  Code  Lc  Rn8xxx_INTC.o [1]
+NVIC_EnableIRQ             0x2'7f7d     0xe  Code  Lc  Rn8xxx_KBI.o [1]
+NVIC_EnableIRQ             0x2'5bbd     0xe  Code  Lc  Rn8xxx_LvdCmpSar.o [1]
+NVIC_EnableIRQ             0x2'5e8d     0xe  Code  Lc  Rn8xxx_TC.o [1]
+NVIC_EnableIRQ             0x1'0415     0xe  Code  Lc  xTarget.o [1]
+NVIC_SetPriority           0x2'5e9b    0x8a  Code  Lc  Rn8xxx_TC.o [1]
+OrgTempData             0x1000'f584    0xa4  Data  Gb  BSP_Tmp.o [1]
+Output                  0x1000'f918    0x64  Data  Gb  Globals.o [1]
+OutputParaDefault          0x3'ef80    0x38  Data  Gb  SysConst.o [1]
+PARA_VAR_Item              0x3'79b8   0x15c  Data  Gb  Dl698_UserData_Oad2DI.o [1]
+POR_TIME                   0x3'9940    0x18  Data  Lc  utils.o [4]
+PdMethod                   0x3'9c30     0x4  Data  Gb  Dl698_UserData.o [1]
+PllEnable                  0x2'f869    0xb4  Code  Lc  sysctrl.o [4]
+PownDnOAD                  0x3'9bc4     0x8  Data  Gb  Dl698_UserData.o [1]
+RFrzMinLine             0x1000'fd94    0x14  Data  Gb  Globals.o [1]
+RTCPara                 0x1000'fd58    0x14  Data  Gb  Globals.o [1]
+RTC_HANDLER                0x3'6da1    0x24  Code  Gb  Drive_AllINT.o [1]
+RdAddr                     0x3'9b84     0x8  Data  Gb  Dl645B_Com.o [1]
+RegCheckMsgList            0x3'9028    0x60  Data  Gb  xTarget.o [1]
+RegCheckStaList         0x1000'fa3c    0x60  Data  Gb  xTarget.o [1]
+Region$$Table$$Base        0x3'9780           --   Gb  - Linker created -
+Region$$Table$$Limit       0x3'97a0           --   Gb  - Linker created -
+RelayCfgTable              0x3'9958    0x14  Data  Gb  BSP_Relay.o [1]
+RelayOperParm           0x1000'fe00     0x8  Data  Gb  BSP_Relay.o [1]
+RepairParaDefault          0x3'efdc    0x20  Data  Gb  Measure.o [1]
+Rn8302Spi_ReadByte         0x2'c395    0x32  Code  Gb  RN7306.o [1]
+Rn8302Spi_WriteByte        0x2'c34d    0x48  Code  Gb  RN7306.o [1]
+Rn8302_API              0x1000'fdc8    0x10  Data  Gb  RN7306.o [1]
+Rn8302_SpiCS               0x2'c331    0x1c  Code  Gb  RN7306.o [1]
+Rn8302_Spi_Init            0x2'c2bd    0x74  Code  Gb  RN7306.o [1]
+Rn8xxx_CMP_Init            0x2'5c1b    0xa0  Code  Gb  Rn8xxx_LvdCmpSar.o [1]
+Rn8xxx_CMP_Stop            0x2'5cbb    0x46  Code  Gb  Rn8xxx_LvdCmpSar.o [1]
+Rn8xxx_DSP_BitReverse      0x3'41c5    0x54  Code  Gb  Rn8xxx_DSP.o [1]
+Rn8xxx_DSP_CalcThd         0x3'449d    0xc4  Code  Gb  Rn8xxx_DSP.o [1]
+Rn8xxx_DSP_FFT             0x3'4221    0x84  Code  Gb  Rn8xxx_DSP.o [1]
+Rn8xxx_DSP_Fp2Int          0x3'415f    0x66  Code  Gb  Rn8xxx_DSP.o [1]
+Rn8xxx_DSP_FpSqrt          0x3'42c1    0x60  Code  Gb  Rn8xxx_DSP.o [1]
+Rn8xxx_DSP_HPercent        0x3'43b1    0xc2  Code  Gb  Rn8xxx_DSP.o [1]
+Rn8xxx_DSP_HPf             0x3'456d   0x112  Code  Gb  Rn8xxx_DSP.o [1]
+Rn8xxx_DSP_Init            0x3'4065    0x14  Code  Gb  Rn8xxx_DSP.o [1]
+Rn8xxx_DSP_Int2Fp          0x3'4079    0xa2  Code  Gb  Rn8xxx_DSP.o [1]
+Rn8xxx_DSP_Pw              0x3'4691    0xfe  Code  Gb  Rn8xxx_DSP.o [1]
+Rn8xxx_DSP_Sin_Cos         0x3'4339    0x38  Code  Gb  Rn8xxx_DSP.o [1]
+Rn8xxx_DSP_U16I2Fp         0x3'411b    0x44  Code  Gb  Rn8xxx_DSP.o [1]
+Rn8xxx_GPIO_CfgFun         0x2'58bd   0x2d2  Code  Gb  Rn8xxx_GPIO.o [1]
+Rn8xxx_GPIO_CfgIOMode      0x2'556d   0x324  Code  Gb  Rn8xxx_GPIO.o [1]
+Rn8xxx_GPIO_CfgPullMode
+                           0x2'54d9    0x74  Code  Gb  Rn8xxx_GPIO.o [1]
+Rn8xxx_GPIO_ReadPin        0x2'545f    0x7a  Code  Gb  Rn8xxx_GPIO.o [1]
+Rn8xxx_GPIO_SetPin         0x2'53f1    0x6e  Code  Gb  Rn8xxx_GPIO.o [1]
+Rn8xxx_INTC_Init           0x2'7e8b    0x88  Code  Gb  Rn8xxx_INTC.o [1]
+Rn8xxx_INTC_Stop           0x2'7f13    0x42  Code  Gb  Rn8xxx_INTC.o [1]
+Rn8xxx_Intc_IRQ            0x2'7e35    0x56  Code  Lc  Rn8xxx_INTC.o [1]
+Rn8xxx_KBI_Init            0x2'7f8b    0x60  Code  Gb  Rn8xxx_KBI.o [1]
+Rn8xxx_LVD_Init            0x2'5bd9    0x42  Code  Gb  Rn8xxx_LvdCmpSar.o [1]
+Rn8xxx_Lcd_Close           0x3'1bcd     0xc  Code  Gb  Rn8xxx_Lcd.o [1]
+Rn8xxx_LvdCmp_STAT         0x2'5e05    0x1c  Code  Gb  Rn8xxx_LvdCmpSar.o [1]
+Rn8xxx_LvdCmp_STATPowerUp
+                           0x2'5e21    0x1c  Code  Gb  Rn8xxx_LvdCmpSar.o [1]
+Rn8xxx_M2M_Move            0x2'f4b5    0x60  Code  Gb  Rn8xxx_M2M.o [1]
+Rn8xxx_RTC_Cnt1Init        0x2'60d3    0x3c  Code  Gb  Rn8xxx_RTC.o [1]
+Rn8xxx_RTC_CtlCheck        0x2'6045    0x22  Code  Gb  Rn8xxx_RTC.o [1]
+Rn8xxx_RTC_CtlInit         0x2'6067    0x6c  Code  Gb  Rn8xxx_RTC.o [1]
+Rn8xxx_RTC_CurveModeCheck
+                           0x2'610f    0xea  Code  Gb  Rn8xxx_RTC.o [1]
+Rn8xxx_RTC_CurveModeInit
+                           0x2'621d    0xd6  Code  Gb  Rn8xxx_RTC.o [1]
+Rn8xxx_RTC_Read            0x2'6355    0x8e  Code  Gb  Rn8xxx_RTC.o [1]
+Rn8xxx_RTC_TempGet         0x2'62f5    0x32  Code  Gb  Rn8xxx_RTC.o [1]
+Rn8xxx_RTC_Write           0x2'6405    0x9c  Code  Gb  Rn8xxx_RTC.o [1]
+Rn8xxx_SarADC_Get          0x2'5d0d    0xf2  Code  Gb  Rn8xxx_LvdCmpSar.o [1]
+Rn8xxx_Spi_DMAInit         0x2'f319    0x58  Code  Gb  Rn8xxx_Spi.o [1]
+Rn8xxx_Spi_DMATxStar       0x2'f371    0x46  Code  Gb  Rn8xxx_Spi.o [1]
+Rn8xxx_Spi_DMA_RxInfo      0x2'f3dd    0x16  Code  Gb  Rn8xxx_Spi.o [1]
+Rn8xxx_Spi_GetRegAddr      0x2'f27d    0x28  Code  Gb  Rn8xxx_Spi.o [1]
+Rn8xxx_Spi_Init            0x2'f2a5    0x74  Code  Gb  Rn8xxx_Spi.o [1]
+Rn8xxx_Spi_ReadByte        0x2'f1ed    0x4a  Code  Gb  Rn8xxx_Spi.o [1]
+Rn8xxx_Spi_WriteByte       0x2'f237    0x46  Code  Gb  Rn8xxx_Spi.o [1]
+Rn8xxx_TC_TimeInit         0x2'5f57    0x5e  Code  Gb  Rn8xxx_TC.o [1]
+Rn8xxx_TC_TimeStar         0x2'5fb5    0x3a  Code  Gb  Rn8xxx_TC.o [1]
+Rn8xxx_UART_DMAInit        0x3'4b5d    0x88  Code  Gb  Rn8xxx_Uart.o [1]
+Rn8xxx_Uart_DMA_RxInfo     0x3'4c29    0x14  Code  Gb  Rn8xxx_Uart.o [1]
+Rn8xxx_Uart_GetRegAddr     0x3'49e5    0x42  Code  Gb  Rn8xxx_Uart.o [1]
+Rn8xxx_Uart_Init           0x3'4a27    0xc8  Code  Gb  Rn8xxx_Uart.o [1]
+Rn8xxx_Uart_SttConfig      0x3'4aef    0x5c  Code  Gb  Rn8xxx_Uart.o [1]
+Rn8xxx_Uart_Write          0x3'4b4b    0x12  Code  Gb  Rn8xxx_Uart.o [1]
+Rn_ReadInfo             0x1000'fe2c     0x4  Data  Gb  Dl645B_Com.o [1]
+RtcCalCheck                0x3'0ba9    0xe4  Code  Gb  utils.o [4]
+RtcCalWait                 0x2'd779    0x1e  Code  Lc  rtc.o [4]
+RtcWait                    0x2'd759    0x20  Code  Lc  rtc.o [4]
+RtcWriteDota               0x2'd797    0xfa  Code  Gb  rtc.o [4]
+SEGGER_RTT_Init            0x3'405d     0x8  Code  Gb  SEGGER_RTT.o [1]
+SEGGER_RTT_Write           0x3'4029    0x2e  Code  Gb  SEGGER_RTT.o [1]
+SEGGER_RTT_WriteNoLock     0x3'3fbd    0x6c  Code  Gb  SEGGER_RTT.o [1]
+SEGGER_RTT_printf          0x2'c007    0x14  Code  Gb  SEGGER_RTT_printf.o [1]
+SEGGER_RTT_vprintf         0x2'be15   0x1f2  Code  Gb  SEGGER_RTT_printf.o [1]
+SPI1_HANDLER               0x3'6c47    0x56  Code  Gb  Drive_AllINT.o [1]
+SPI_HANDLER                0x3'6c1f    0x28  Code  Gb  Drive_AllINT.o [1]
+ScomPort_SpiID_Table    0x1000'0000     0x4  Data  Gb  BSP_Spi.o [1]
+ScomPort_UartID_Table   0x1000'0004     0x4  Data  Gb  BSP_Uart.o [1]
+Scom_ProtocolCheck         0x3'3585    0x9c  Code  Gb  Scom.o [1]
+Secret                  0x1000'f8ac    0x6c  Data  Gb  Globals.o [1]
+SecretParaDefault          0x3'e964   0x17c  Data  Gb  SysConst.o [1]
+ServerVer_Offset           0x3'9bdc     0x8  Data  Gb  Dl698_UserData_Oad2DI.o [1]
+SpiBaseAddr                0x3'9a0c    0x10  Data  Gb  BSP_Spi.o [1]
+SpiIrqn                    0x3'9c20     0x4  Data  Gb  BSP_Spi.o [1]
+SrAddr                  0x1000'fe10     0x8  Data  Gb  Dl698_DL.o [1]
+Stat                    0x1000'f1d4    0x74  Data  Gb  Globals.o [1]
+Std_AsciiStrToHexStr         0xdf99    0x2c  Code  Gb  MyMath.o [1]
+Std_AsciiToHex               0xdf41    0x58  Code  Gb  MyMath.o [1]
+Std_BitRvsSelf               0xdf1b    0x26  Code  Gb  MyMath.o [1]
+Std_Lsb16DataGet             0xddb3     0xc  Code  Gb  MyMath.o [1]
+Std_Lsb32DataGet             0xddd7    0x22  Code  Gb  MyMath.o [1]
+Std_Lsb32DataSet             0xddf9    0x1c  Code  Gb  MyMath.o [1]
+Std_MemRvs                   0xdecd    0x30  Code  Gb  MyMath.o [1]
+Std_MemRvsSelf               0xdefd    0x1e  Code  Gb  MyMath.o [1]
+Std_Memcmp                   0xde53    0x38  Code  Gb  MyMath.o [1]
+Std_Memcpy                   0xde8b    0x28  Code  Gb  MyMath.o [1]
+Std_Memset                   0xdeb3    0x1a  Code  Gb  MyMath.o [1]
+Std_Msb16DataGet             0xddbf     0xc  Code  Gb  MyMath.o [1]
+Std_Msb16DataSet             0xddcb     0xc  Code  Gb  MyMath.o [1]
+Std_Msb32DataGet             0xde15    0x1e  Code  Gb  MyMath.o [1]
+Std_Msb32DataSet             0xde33    0x20  Code  Gb  MyMath.o [1]
+SynFrz1DataBlockTagLen     0x3'7c70   0x138  Data  Gb  Dl698_UserData_Oad2DI.o [1]
+SynFrz2DataBlockTagLen     0x3'8e28    0x6c  Data  Gb  Dl698_UserData_Oad2DI.o [1]
+SynFrzDataBlock         0x1000'f628    0x9c  Data  Gb  Dl698_UserData_Oad2DI.o [1]
+SynVarDataBlockTagLen      0x3'6744   0x3d8  Data  Gb  Dl698_UserData_Oad2DI.o [1]
+SynVarOtherUnitData     0x1000'fa9c    0x58  Data  Gb  Globals.o [1]
+SysClock                0x1000'fe18     0x8  Data  Gb  Globals.o [1]
+SysConfCheck               0x3'2725   0x568  Code  Gb  sysupdate.o [4]
+SysDatetimes            0x1000'fe20     0x8  Data  Gb  Globals.o [1]
+SysModeChg                 0x2'ff59   0x1e6  Code  Gb  sysctrl.o [4]
+SysStamp                0x1000'fe4a     0x2  Data  Gb  Globals.o [1]
+SysTick_Config             0x2'5f25    0x32  Code  Lc  Rn8xxx_TC.o [1]
+SystemCoreClock         0x1000'01b4     0x4  Data  Gb  system_RN8XXX_V2.o [1]
+SystemCoreClockUpdate      0x3'016d    0x5a  Code  Gb  system_RN8XXX_V2.o [1]
+SystemDelay                0x1'0455    0x20  Code  Gb  xTarget.o [1]
+SystemDelayUs              0x2'01ad    0x52  Code  Gb  Rn8xxx_Common.o [1]
+SystemInit                 0x3'01d1     0x2  Code  Gb  system_RN8XXX_V2.o [1]
+TABDayOfMonth              0x3'9a2c    0x10  Data  Gb  Dl698_UserData_Oad2DI.o [1]
+TAB_COM                    0x3'9c38     0x4  Data  Gb  Dl698_UserData_Oad2DI.o [1]
+TAB_DayOfMonth             0x3'9a5c    0x10  Data  Gb  MyMath.o [1]
+TAB_MonthBeginDay          0x3'9880    0x18  Data  Gb  MyMath.o [1]
+TAB_PortFunction           0x3'9c5f     0x1  Data  Gb  Dl698_UserData_Oad2DI.o [1]
+TAB_RS4851                 0x3'9bcc     0x8  Data  Gb  Dl698_UserData_Oad2DI.o [1]
+TAB_Relay                  0x3'9bd4     0x8  Data  Gb  Dl698_UserData_Oad2DI.o [1]
+TC0_HANDLER                0x3'6b1d    0x34  Code  Gb  Drive_AllINT.o [1]
+TC1_HANDLER                0x3'6b51     0x8  Code  Gb  Drive_AllINT.o [1]
+TICK_STAT_GET              0x3'09cf    0x28  Code  Lc  utils.o [4]
+Tab_VoltRepair             0x3'8a28    0x90  Data  Gb  Measure.o [1]
+Temp_HPf                0x1000'fcf4    0x1c  Data  Gb  Harmonic.o [1]
+Temp_Per                0x1000'fd28    0x18  Data  Gb  Harmonic.o [1]
+TemperSchoolParaDefault
+                           0x3'ee8c    0x60  Data  Gb  SysConst.o [1]
+TestHarmonicTime        0x1000'fc4c    0x28  Data  Gb  Harmonic.o [1]
+Trim                    0x1000'fd6c    0x14  Data  Gb  Globals.o [1]
+TrmCipherHead1             0x3'9c24     0x4  Data  Gb  Dl698_EsamOp.o [1]
+TrmCipherHead2             0x3'9c28     0x4  Data  Gb  Dl698_EsamOp.o [1]
+UART0_HANDLER              0x3'6b59    0x6a  Code  Gb  Drive_AllINT.o [1]
+UART1_HANDLER              0x3'6bc3     0x8  Code  Gb  Drive_AllINT.o [1]
+UART3_HANDLER              0x3'6bcb     0x8  Code  Gb  Drive_AllINT.o [1]
+UART4_HANDLER              0x3'6bd3     0x8  Code  Gb  Drive_AllINT.o [1]
+UART5_HANDLER              0x3'6bdb     0x8  Code  Gb  Drive_AllINT.o [1]
+USART_ITConfig             0x3'2f85    0x84  Code  Gb  BSP_Uart.o [1]
+VAR_Item                   0x3'7844   0x174  Data  Gb  Dl698_UserData_Oad2DI.o [1]
+WaveHmFftBuf            0x1000'd4fc   0xc00  Data  Gb  Measure.o [1]
+Wdog                    0x1000'fe3c     0x4  Data  Gb  Globals.o [1]
+_DoInit                    0x3'3e7d    0x46  Code  Lc  SEGGER_RTT.o [1]
+_GetAvailWriteSpace        0x3'3f89    0x1a  Code  Lc  SEGGER_RTT.o [1]
+_PrintInt                  0x2'bd31    0xe4  Code  Lc  SEGGER_RTT_printf.o [1]
+_PrintUnsigned             0x2'bc45    0xe6  Code  Lc  SEGGER_RTT_printf.o [1]
+_PrintUnsigned::_aV2C      0x3'9a6c    0x10  Data  Lc  SEGGER_RTT_printf.o [1]
+_SEGGER_RTT             0x1000'f4dc    0xa8  Data  Gb  SEGGER_RTT.o [1]
+_StoreChar                 0x2'bc01    0x44  Code  Lc  SEGGER_RTT_printf.o [1]
+_WriteBlocking             0x3'3ec3    0x78  Code  Lc  SEGGER_RTT.o [1]
+_WriteNoCheck              0x3'3f3b    0x4e  Code  Lc  SEGGER_RTT.o [1]
+__Vectors                       0x0           --   Gb  startup_RN8xxx_v2.o [1]
+__Vectors_End                  0xc0          Data  Gb  startup_RN8xxx_v2.o [1]
+__Vectors_Size {Abs}           0xc0           --   Gb  startup_RN8xxx_v2.o [1]
+__acqCorefre               0x3'0df7    0x4e  Code  Lc  eepromProgram.o [4]
+__aeabi_cdcmple            0x3'492d          Code  Gb  DblCmpLe.o [3]
+__aeabi_cfcmpeq            0x2'f515          Code  Gb  FltCmpEq.o [3]
+__aeabi_cfrcmple           0x2'c501          Code  Gb  FltCmpGe.o [3]
+__aeabi_d2f                0x2'c49f          Code  Gb  DblToFlt.o [3]
+__aeabi_d2iz               0x1'242d          Code  Gb  DblToI32.o [3]
+__aeabi_d2uiz              0x1'2451          Code  Gb  DblToI32.o [3]
+__aeabi_dadd               0x1'20f3          Code  Gb  DblAddSub.o [3]
+__aeabi_ddiv               0x2'c3dd          Code  Gb  DblDiv.o [3]
+__aeabi_dmul               0x1'22a7          Code  Gb  DblMul.o [3]
+__aeabi_dsub               0x1'21b9          Code  Gb  DblAddSub.o [3]
+__aeabi_f2d                0x1'20c1          Code  Gb  FltToDbl.o [3]
+__aeabi_f2iz               0x2'f535          Code  Gb  FltToS32.o [3]
+__aeabi_f2uiz              0x2'c649          Code  Gb  FltToU32.o [3]
+__aeabi_fadd               0x2'c529          Code  Gb  FltAddSub.o [3]
+__aeabi_fdiv               0x1'1f67          Code  Gb  FltDiv.o [3]
+__aeabi_fmul               0x1'2011          Code  Gb  FltMul.o [3]
+__aeabi_fsub               0x2'c599          Code  Gb  FltAddSub.o [3]
+__aeabi_i2d                0x2'd921          Code  Gb  IxxToDbl.o [3]
+__aeabi_i2f                0x1'1f51          Code  Gb  IxxToFlt.o [3]
+__aeabi_idiv                 0xfccf          Code  Gb  I32DivModFast.o [5]
+__aeabi_idiv0              0x2'50fd          Code  Gb  IntDivZer.o [5]
+__aeabi_idivmod              0xfccf          Code  Gb  I32DivModFast.o [5]
+__aeabi_l2d                0x2'd8ad          Code  Gb  IxxToDbl.o [3]
+__aeabi_ldiv0              0x2'f5a5          Code  Gb  I64DivZer.o [5]
+__aeabi_ldivmod            0x2'5055          Code  Gb  I64DivMod.o [5]
+__aeabi_lmul               0x2'f571          Code  Gb  I64Mul.o [5]
+__aeabi_memclr4            0x1'9559          Code  Gb  ABImemset.o [5]
+__aeabi_memclr8            0x1'9559          Code  Gb  ABImemset.o [5]
+__aeabi_memcpy             0x1'03f9          Code  Gb  ABImemcpy.o [5]
+__aeabi_memcpy4            0x1'03c5          Code  Gb  ABImemcpy.o [5]
+__aeabi_memcpy8            0x1'03c5          Code  Gb  ABImemcpy.o [5]
+__aeabi_memset             0x1'9539          Code  Gb  ABImemset.o [5]
+__aeabi_ui2d               0x2'd901          Code  Gb  IxxToDbl.o [3]
+__aeabi_ui2f               0x1'1f31          Code  Gb  IxxToFlt.o [3]
+__aeabi_uidiv                0xfcd5          Code  Gb  I32DivModFast.o [5]
+__aeabi_uidivmod             0xfcd5          Code  Gb  I32DivModFast.o [5]
+__aeabi_ul2d               0x2'd8c7          Code  Gb  IxxToDbl.o [3]
+__aeabi_uldivmod           0x2'5093          Code  Gb  I64DivMod.o [5]
+__aeabi_uread4             0x1'1f19          Code  Gb  uread4.o [5]
+__aeabi_uwrite4            0x1'617d          Code  Gb  uwrite4.o [5]
+__checkFlag                0x3'0efd    0x2c  Code  Lc  eepromProgram.o [4]
+__cmain                    0x3'9801          Code  Gb  cmain.o [5]
+__eepromProgram            0x3'0f29   0x19a  Code  Gb  eepromProgram.o [4]
+__eepromProgram_9103c      0x3'1129   0x230  Code  Gb  eepromProgram.o [4]
+__exit                     0x3'9839    0x14  Code  Gb  exit.o [6]
+__iar_Atan64               0x3'4d81   0x22c  Code  Gb  iar_Atan64.o [3]
+__iar_Memcpy               0x1'0405          Code  Gb  ABImemcpy.o [5]
+__iar_Memset4_word         0x1'955d          Code  Gb  ABImemset.o [5]
+__iar_Memset_word          0x1'9545          Code  Gb  ABImemset.o [5]
+__iar_asin64               0x3'47c5   0x168  Code  Gb  asin64.o [3]
+__iar_d2uiz                0x1'2455          Code  Gb  DblToI32.o [3]
+__iar_data_init3           0x3'9735    0x28  Code  Gb  data_init.o [5]
+__iar_lz77_init_single3
+                             0xfd83    0x7e  Code  Gb  lz77_init_single.o [5]
+__iar_program_start        0x3'9b49          Code  Gb  cstartup_M.o [5]
+__iar_sqrt64               0x2'f3f3          Code  Gb  sqrt.o [3]
+__iar_zero_init3           0x3'9585    0x3c  Code  Gb  zero_init3.o [5]
+__low_level_init           0x3'981f     0x4  Code  Gb  low_level_init.o [2]
+__swDelay                  0x3'0e45    0x4a  Code  Lc  eepromProgram.o [4]
+__trimFill                 0x3'0e8f    0x60  Code  Lc  eepromProgram.o [4]
+__updateAddr               0x3'0dc1    0x36  Code  Lc  eepromProgram.o [4]
+__vector_table                  0x0          Data  Gb  startup_RN8xxx_v2.o [1]
+__vector_table_0x1c            0x1c          Data  Gb  startup_RN8xxx_v2.o [1]
+_acDownBuffer           0x1000'fdd8    0x10  Data  Lc  SEGGER_RTT.o [1]
+_acUpBuffer             0x1000'ec2c   0x400  Data  Lc  SEGGER_RTT.o [1]
+_call_main                 0x3'980d          Code  Gb  cmain.o [5]
+_exit                      0x3'982d          Code  Gb  cexit.o [5]
+_main                      0x3'981b          Code  Gb  cmain.o [5]
+a                          0x3'95c0    0x40  Data  Lc  iar_Atan64.o [3]
+abs                        0x2'c01b     0x8  Code  Gb  abs.o [2]
+asin                       0x3'47c5   0x168  Code  Gb  asin64.o [3]
+asinl                      0x3'47c5   0x168  Code  Gb  asin64.o [3]
+auchCRCHi                  0x3'7da8   0x100  Data  Gb  MyMath.o [1]
+auchCRCLo                  0x3'7ea8   0x100  Data  Gb  MyMath.o [1]
+bcdtohex                   0x2'e401    0x42  Code  Gb  app_rn7306.o [1]
+byFdwRetBuf                0x3'94c0    0x44  Data  Gb  Dl645B_Com.o [1]
+check_rn7306_checksum      0x2'e643    0xaa  Code  Gb  app_rn7306.o [1]
+check_rn7306_reg           0x2'e729   0xaae  Code  Gb  app_rn7306.o [1]
+check_spl_valid            0x3'0b3f    0x36  Code  Gb  utils.o [4]
+clock_valid_check          0x2'fac9    0xfa  Code  Lc  sysctrl.o [4]
+conf_reg                   0x3'80a0    0xf0  Data  Lc  sysupdate.o [4]
+currentClk                 0x3'0941    0x4e  Code  Gb  utils.o [4]
+currentClk_idx             0x3'098f    0x40  Code  Gb  utils.o [4]
+current_cout            0x1000'fe38     0x4  Data  Gb  Dl698AL_process.o [1]
+e                       0x1000'fdf8     0x8  Data  Lc  app_rn7306.o [1]
+eUsartBps_Def              0x3'9b24     0xc  Data  Gb  Scom.o [1]
+ee_tw_198ns                0x3'98f8    0x18  Data  Lc  sysctrl.o [4]
+ee_tw_98ns                 0x3'98e0    0x18  Data  Lc  sysctrl.o [4]
+eepromProgram              0x2'6e5d    0x78  Code  Gb  nvm.o [4]
+eepromStandby              0x2'6ed5    0x3a  Code  Gb  nvm.o [4]
+eepromWakeup               0x2'6f0f    0x2e  Code  Gb  nvm.o [4]
+err                     0x1000'fde8     0x8  Data  Lc  app_rn7306.o [1]
+esamErrCnt              0x1000'fe50     0x1  Data  Gb  Dl698_EsamOp.o [1]
+exit                       0x3'9823     0x8  Code  Gb  exit.o [2]
+fcs16                      0x3'3aa9    0x44  Code  Gb  Dl698_Crc.o [1]
+fcstab                     0x3'70f0   0x200  Data  Lc  Dl698_Crc.o [1]
+fifo_ClearBuffer           0x3'4c3d    0x18  Code  Gb  FIFO.o [1]
+fl_tw_198ns                0x3'98c8    0x18  Data  Lc  sysctrl.o [4]
+fl_tw_98ns                 0x3'98b0    0x18  Data  Lc  sysctrl.o [4]
+fl_tw_v2                   0x3'9910    0x18  Data  Lc  sysctrl.o [4]
+fnAct_BroatcastTime          0xafa5   0x348  Code  Gb  Dl698_UserData_Oad2DI.o [1]
+fnAct_Clear                  0xb441    0x72  Code  Gb  Dl698_UserData_Oad2DI.o [1]
+fnAct_DispPara               0xcc1d     0x4  Code  Gb  Dl698_UserData_Oad2DI.o [1]
+fnAct_EsamOp                 0xa341   0x890  Code  Gb  Dl698_UserData_Oad2DI.o [1]
+fnAct_EvtPara                0xb6e1   0x3ca  Code  Gb  Dl698_UserData_Oad2DI.o [1]
+fnAct_File                   0xcdb9   0x3c6  Code  Gb  Dl698_UserData_Oad2DI.o [1]
+fnAct_FrzPara                0xbad1  0x113c  Code  Gb  Dl698_UserData_Oad2DI.o [1]
+fnAct_GataOp                 0x9d21   0x602  Code  Gb  Dl698_UserData_Oad2DI.o [1]
+fnAct_HalfIrmsPara           0xb5ed    0xbc  Code  Gb  Dl698_UserData_Oad2DI.o [1]
+fnAct_InOut_DevicePara       0xb2f1   0x14c  Code  Gb  Dl698_UserData_Oad2DI.o [1]
+fnAct_Normal                 0xd3e3   0x19c  Code  Gb  Dl698_UserData_Oad2DI.o [1]
+fnAct_SafeModePara           0xabf1   0x3b0  Code  Gb  Dl698_UserData_Oad2DI.o [1]
+fnAct_VarPara                0xcc21   0x16a  Code  Gb  Dl698_UserData_Oad2DI.o [1]
+fnAct_WavePara               0xb4b9   0x120  Code  Gb  Dl698_UserData_Oad2DI.o [1]
+fnBCD_Check                  0xdd7b    0x38  Code  Gb  MyMath.o [1]
+fnBSP_ExModuleSpi_Init     0x2'0a4d    0xa2  Code  Gb  Measure.o [1]
+fnBcdToHex_u16               0xd7c3    0x48  Code  Gb  MyMath.o [1]
+fnBcdToHex_u32               0xd80b    0x54  Code  Gb  MyMath.o [1]
+fnBcdToHex_u8                0xd7a5    0x1e  Code  Gb  MyMath.o [1]
+fnBkgrd_ClockBatCalculate
+                           0x2'800d    0x50  Code  Gb  Bkgrd.o [1]
+fnBkgrd_Day_Exec           0x2'81d9    0x80  Code  Gb  Bkgrd.o [1]
+fnBkgrd_Exec               0x2'899d   0x1c2  Code  Gb  Bkgrd.o [1]
+fnBkgrd_GetMeasureStatusWd
+                           0x2'8619   0x366  Code  Gb  Bkgrd.o [1]
+fnBkgrd_GetMtConfirmStatus
+                           0x2'8265    0xe2  Code  Gb  Bkgrd.o [1]
+fnBkgrd_GetMtStatusWd      0x2'8355    0xc0  Code  Gb  Bkgrd.o [1]
+fnBkgrd_Hour_Exec          0x2'81d7     0x2  Code  Gb  Bkgrd.o [1]
+fnBkgrd_Minute_Exec        0x2'81a5    0x32  Code  Gb  Bkgrd.o [1]
+fnBkgrd_Second_Exec        0x2'8127    0x7e  Code  Gb  Bkgrd.o [1]
+fnBkgrd_StatusGenerate     0x2'8435   0x1ae  Code  Gb  Bkgrd.o [1]
+fnBkgrd_TemperIAGain       0x2'80df    0x3c  Code  Gb  Bkgrd.o [1]
+fnBkgrd_Tnal_Tmper         0x2'811b     0xc  Code  Gb  Bkgrd.o [1]
+fnBkgrd__RTCParaCheck      0x2'805d    0x82  Code  Gb  Bkgrd.o [1]
+fnBsp_CT7538_JudgeStable
+                           0x3'170d   0x180  Code  Gb  BSP_Tmp.o [1]
+fnBsp_CT7538_TempRange     0x3'16cf    0x36  Code  Gb  BSP_Tmp.o [1]
+fnBsp_CT7538_read_temp     0x3'18b1   0x1be  Code  Gb  BSP_Tmp.o [1]
+fnBsp_Temp_Ajust           0x3'15cd   0x102  Code  Gb  BSP_Tmp.o [1]
+fnBsp_Tmp_Init             0x3'1a75   0x10c  Code  Gb  BSP_Tmp.o [1]
+fnBufTemp_Alloc            0x1'5165    0x7a  Code  Gb  Globals.o [1]
+fnBufTemp_Free             0x1'51df    0xe8  Code  Gb  Globals.o [1]
+fnBufTemp_Init             0x1'514d    0x18  Code  Gb  Globals.o [1]
+fnCHK_ESAMDly              0x1'937d   0x198  Code  Gb  Secret.o [1]
+fnCHK_LinkDly              0x1'9279    0xea  Code  Gb  Secret.o [1]
+fnCRC16                      0xdd03    0x30  Code  Gb  MyMath.o [1]
+fnCalSum                   0x2'0491    0x22  Code  Gb  Measure.o [1]
+fnCardGetByte              0x2'9ec1    0x24  Code  Gb  BSP_Esam.o [1]
+fnCardSendByte             0x2'9ee5    0x28  Code  Gb  BSP_Esam.o [1]
+fnCheckNVRAM               0x2'64d5    0xd2  Code  Gb  Fm24Cxx.o [1]
+fnCheckSocEE               0x1'07d9    0x38  Code  Gb  xTarget.o [1]
+fnCheck_Date_time_s          0xdfc5    0x92  Code  Gb  MyMath.o [1]
+fnCheck_ReportCnt          0x1'1e4b    0x30  Code  Gb  Dl698_UserData.o [1]
+fnCheck_ReportPara         0x1'4959    0xd0  Code  Gb  Event.o [1]
+fnCheck_RptType            0x1'1e7b     0x6  Code  Gb  Dl698_UserData.o [1]
+fnCheck_nMacErr            0x1'1e85    0x12  Code  Gb  Dl698_UserData.o [1]
+fnChkStatus_tLinkDly       0x1'12a9    0x54  Code  Gb  Dl698_UserData.o [1]
+fnChk_TermBinCoreAuthStatus
+                           0x1'12fd    0x34  Code  Gb  Dl698_UserData.o [1]
+fnClr_EvtReportData        0x1'46b5   0x29c  Code  Gb  Event.o [1]
+fnClr_RptStatus            0x1'507f    0xba  Code  Gb  Event.o [1]
+fnComAddrGet               0x3'3055    0x52  Code  Gb  Scom.o [1]
+fnCommStatus               0x1'1a41    0x5a  Code  Gb  Dl698_UserData.o [1]
+fnConnDataInit             0x1'15a1    0x6c  Code  Gb  Dl698_UserData.o [1]
+fnConnSizeDefault          0x1'160d    0x54  Code  Gb  Dl698_UserData.o [1]
+fnConnectDis_SecretClr     0x1'91cf    0x3a  Code  Gb  Secret.o [1]
+fnConnect_Secret           0x1'90fd    0xd2  Code  Gb  Secret.o [1]
+fnCrc_Check                  0xdd41    0x3a  Code  Gb  MyMath.o [1]
+fnDFCmp_DF20                 0xd9a9    0x42  Code  Gb  MyMath.o [1]
+fnDFCompData                 0xd8b9    0x4c  Code  Gb  MyMath.o [1]
+fnDL698AL_asn1_get_ObjCnt
+                             0xecbd    0x3c  Code  Gb  Dl698AL_asn1.o [1]
+fnDL698AL_asn1_set_ObjCnt
+                             0xec6d    0x50  Code  Gb  Dl698AL_asn1.o [1]
+fnDateTimeToMin              0xdccd    0x22  Code  Gb  MyMath.o [1]
+fnDateTimeToSec              0xdcef    0x14  Code  Gb  MyMath.o [1]
+fnDayCount                   0xdc31    0x8e  Code  Gb  MyMath.o [1]
+fnDelay2us                 0x3'0471    0x3a  Code  Gb  BSP_IIC.o [1]
+fnDelayMs                  0x1'0475    0x38  Code  Gb  xTarget.o [1]
+fnDl645B_AddrCheck         0x1'96d7    0xc0  Code  Gb  Dl645B_Com.o [1]
+fnDl645B_ByteCheckBCD      0x1'9609    0x20  Code  Gb  Dl645B_Com.o [1]
+fnDl645B_Exec              0x2'00d7    0xb6  Code  Gb  Dl645B_Com.o [1]
+fnDl645B_FramCheckBCD      0x1'9629    0x2e  Code  Gb  Dl645B_Com.o [1]
+fnDl645B_FrameCheck        0x1'9797    0xea  Code  Gb  Dl645B_Com.o [1]
+fnDl645B_Inverse           0x1'95c1    0x48  Code  Gb  Dl645B_Com.o [1]
+fnDl645B_JudgeClockNoWeek
+                           0x1'9657    0x80  Code  Gb  Dl645B_Com.o [1]
+fnDl645B_Modify            0x1'9889    0x30  Code  Gb  Dl645B_Com.o [1]
+fnDl645B_RxAnalyse         0x1'ffe9    0xee  Code  Gb  Dl645B_Com.o [1]
+fnDl645B_Unpack01          0x1'e781   0x22e  Code  Gb  Dl645B_Com.o [1]
+fnDl645B_Unpack03          0x1'e9b5    0x68  Code  Gb  Dl645B_Com.o [1]
+fnDl645B_Unpack04          0x1'ea35   0x218  Code  Gb  Dl645B_Com.o [1]
+fnDl645B_Unpack08          0x1'ec61   0x214  Code  Gb  Dl645B_Com.o [1]
+fnDl645B_Unpack11          0x1'ee89   0x2e8  Code  Gb  Dl645B_Com.o [1]
+fnDl645B_Unpack12          0x1'f179   0x2ac  Code  Gb  Dl645B_Com.o [1]
+fnDl645B_Unpack13          0x1'f425    0x5a  Code  Gb  Dl645B_Com.o [1]
+fnDl645B_Unpack14          0x1'f485    0x68  Code  Gb  Dl645B_Com.o [1]
+fnDl645B_Unpack16          0x1'f4ed   0x118  Code  Gb  Dl645B_Com.o [1]
+fnDl645B_Unpack17          0x1'f605    0xf4  Code  Gb  Dl645B_Com.o [1]
+fnDl645B_Unpack19          0x1'f6f9     0x4  Code  Gb  Dl645B_Com.o [1]
+fnDl645B_Unpack1A          0x1'f6fd     0x4  Code  Gb  Dl645B_Com.o [1]
+fnDl645B_Unpack1B          0x1'f701     0x4  Code  Gb  Dl645B_Com.o [1]
+fnDl645B_Unpack1C          0x1'f711   0x5ea  Code  Gb  Dl645B_Com.o [1]
+fnDl645B_Unpack1D          0x1'fd01   0x100  Code  Gb  Dl645B_Com.o [1]
+fnDl645B_Unpack1E          0x1'fe05    0x72  Code  Gb  Dl645B_Com.o [1]
+fnDl645B_Unpack1F          0x1'fe8d   0x130  Code  Gb  Dl645B_Com.o [1]
+fnDl645Event_Operation     0x1'31a1     0x2  Code  Gb  Event.o [1]
+fnDl645_CmpFrzTime         0x1'b725     0x2  Code  Gb  Dl645B_Com.o [1]
+fnDl645_ControlPackErr     0x1'9a35   0x11e  Code  Gb  Dl645B_Com.o [1]
+fnDl645_FindRmEgSh         0x1'9e07    0x30  Code  Gb  Dl645B_Com.o [1]
+fnDl645_GetAInSwimEv       0x1'ab17     0x4  Code  Gb  Dl645B_Com.o [1]
+fnDl645_GetCurEv           0x1'ab1f     0x4  Code  Gb  Dl645B_Com.o [1]
+fnDl645_GetEv              0x1'ae95    0xa2  Code  Gb  Dl645B_Com.o [1]
+fnDl645_GetGateOffEv       0x1'af37     0x4  Code  Gb  Dl645B_Com.o [1]
+fnDl645_GetGateOnEv        0x1'af3b     0x4  Code  Gb  Dl645B_Com.o [1]
+fnDl645_GetInPhaEv         0x1'ab13     0x4  Code  Gb  Dl645B_Com.o [1]
+fnDl645_GetLossAuxEv       0x1'ab2f     0x4  Code  Gb  Dl645B_Com.o [1]
+fnDl645_GetMiscEv          0x1'aca5   0x1e6  Code  Gb  Dl645B_Com.o [1]
+fnDl645_GetMiscEvItemLen
+                           0x1'ac45    0x38  Code  Gb  Dl645B_Com.o [1]
+fnDl645_GetMiscItem        0x1'aca1     0x4  Code  Gb  Dl645B_Com.o [1]
+fnDl645_GetOtherEv         0x1'ae91     0x4  Code  Gb  Dl645B_Com.o [1]
+fnDl645_GetOverNeedEv      0x1'ac41     0x4  Code  Gb  Dl645B_Com.o [1]
+fnDl645_GetOverPfEv        0x1'ab27     0x4  Code  Gb  Dl645B_Com.o [1]
+fnDl645_GetParaVar         0x1'af89   0x784  Code  Gb  Dl645B_Com.o [1]
+fnDl645_GetPowDnEv         0x1'ac3d     0x4  Code  Gb  Dl645B_Com.o [1]
+fnDl645_GetQLossVolEv      0x1'ab2b     0x4  Code  Gb  Dl645B_Com.o [1]
+fnDl645_GetRmEgSh          0x1'9fa1   0x550  Code  Gb  Dl645B_Com.o [1]
+fnDl645_GetRmEgShItem      0x1'9e7d   0x10a  Code  Gb  Dl645B_Com.o [1]
+fnDl645_GetRmEgShItemLen
+                           0x1'9e37    0x46  Code  Gb  Dl645B_Com.o [1]
+fnDl645_GetRmNeed          0x1'a4f1     0x4  Code  Gb  Dl645B_Com.o [1]
+fnDl645_GetSocMemory       0x1'af3f    0x40  Code  Gb  Dl645B_Com.o [1]
+fnDl645_GetStat            0x1'ab37   0x106  Code  Gb  Dl645B_Com.o [1]
+fnDl645_GetStatItem        0x1'ab33     0x4  Code  Gb  Dl645B_Com.o [1]
+fnDl645_GetUnblEv          0x1'ab1b     0x4  Code  Gb  Dl645B_Com.o [1]
+fnDl645_GetVar             0x1'a4f5   0x61a  Code  Gb  Dl645B_Com.o [1]
+fnDl645_GetVolEv           0x1'ab0f     0x4  Code  Gb  Dl645B_Com.o [1]
+fnDl645_GetWaveEv          0x1'ab23     0x4  Code  Gb  Dl645B_Com.o [1]
+fnDl645_NRZTGetData        0x1'e64d   0x100  Code  Gb  Dl645B_Com.o [1]
+fnDl645_PackErr            0x1'98b9    0xb2  Code  Gb  Dl645B_Com.o [1]
+fnDl645_PackFeatureData
+                           0x1'9d8b    0x7c  Code  Gb  Dl645B_Com.o [1]
+fnDl645_PackNoDI           0x1'9d0b    0x80  Code  Gb  Dl645B_Com.o [1]
+fnDl645_PackOk             0x1'9b53    0xe0  Code  Gb  Dl645B_Com.o [1]
+fnDl645_PackSeq            0x1'9c39    0xd2  Code  Gb  Dl645B_Com.o [1]
+fnDl645_Process            0x3'363d   0x1da  Code  Gb  Scom.o [1]
+fnDl645_PutParaVar         0x1'b729  0x18fe  Code  Gb  Dl645B_Com.o [1]
+fnDl645_PutParaVarWithDecipher
+                           0x1'd20d   0x438  Code  Gb  Dl645B_Com.o [1]
+fnDl645_PutParaVarWithMac
+                           0x1'd035   0x19a  Code  Gb  Dl645B_Com.o [1]
+fnDl645_ReadCurve          0x1'e549     0x4  Code  Gb  Dl645B_Com.o [1]
+fnDl645_ReadProfile        0x1'e54d     0x4  Code  Gb  Dl645B_Com.o [1]
+fnDl645_SafetyCertification
+                           0x1'd651   0xef0  Code  Gb  Dl645B_Com.o [1]
+fnDl645_SafetyPackErr      0x1'9971    0xb6  Code  Gb  Dl645B_Com.o [1]
+fnDl645_SetNRZTPara        0x1'e551    0xf0  Code  Gb  Dl645B_Com.o [1]
+fnDl698AL_ActReqHandle     0x2'b575   0x300  Code  Gb  Dl698AL_Act.o [1]
+fnDl698AL_Brk_Asso         0x1'6ec5   0x19a  Code  Gb  Dl698AL_process.o [1]
+fnDl698AL_BuildActRsp      0x2'b401   0x15e  Code  Lc  Dl698AL_Act.o [1]
+fnDl698AL_BuildERRRsp      0x1'63d5   0x102  Code  Lc  Dl698AL_process.o [1]
+fnDl698AL_BuildGetRsp      0x2'ab21   0x1a8  Code  Lc  Dl698AL_Get.o [1]
+fnDl698AL_BuildRsp         0x1'64f9    0xb0  Code  Gb  Dl698AL_process.o [1]
+fnDl698AL_BuildSetRsp      0x2'aff5   0x15a  Code  Lc  Dl698AL_Set.o [1]
+fnDl698AL_Check_AddrType
+                           0x1'7987    0x70  Code  Gb  Dl698AL_process.o [1]
+fnDl698AL_Check_ApduSec
+                           0x1'7b4d   0x1ae  Code  Gb  Dl698AL_process.o [1]
+fnDl698AL_Check_Auth       0x1'83f5   0x1a4  Code  Gb  Dl698_AL.o [1]
+fnDl698AL_Check_OIList     0x1'7069    0x64  Code  Gb  Dl698AL_process.o [1]
+fnDl698AL_Check_OMDSec     0x1'7a05   0x130  Code  Gb  Dl698AL_process.o [1]
+fnDl698AL_Check_TimeTag
+                             0xecf9   0x396  Code  Gb  Dl698AL_asn1.o [1]
+fnDl698AL_ChkAl_Idle       0x2'b89d     0x4  Code  Gb  Dl698AL_Report.o [1]
+fnDl698AL_ChkDl_Idle       0x2'b899     0x4  Code  Gb  Dl698AL_Report.o [1]
+fnDl698AL_ConnHandle       0x2'a269   0x2d0  Code  Gb  Dl698AL_Conn.o [1]
+fnDl698AL_ConnRes          0x2'9f9f   0x2ba  Code  Gb  Dl698AL_Conn.o [1]
+fnDl698AL_Decode_Conformance
+                           0x2'9f0d    0x92  Code  Gb  Dl698AL_Conn.o [1]
+fnDl698AL_Decode_TimeTag
+                           0x1'7f8b    0xbc  Code  Gb  Dl698_AL.o [1]
+fnDl698AL_DelayHandle      0x1'839f    0x4a  Code  Gb  Dl698_AL.o [1]
+fnDl698AL_EvtNotify        0x1'1109    0x60  Code  Gb  Dl698_UserData.o [1]
+fnDl698AL_FlwRptPkg        0x1'8355    0x4a  Code  Gb  Dl698_AL.o [1]
+fnDl698AL_Gen_SecRsp       0x1'73d5   0x4dc  Code  Gb  Dl698AL_process.o [1]
+fnDl698AL_GetArrayData_Len
+                             0xf3c9    0xca  Code  Gb  Dl698AL_asn1.o [1]
+fnDl698AL_GetCurrTime      0x1'7ea5    0x5a  Code  Gb  Dl698_AL.o [1]
+fnDl698AL_GetData_Len        0xf493   0x328  Code  Gb  Dl698AL_asn1.o [1]
+fnDl698AL_GetReqHandle     0x2'acd5   0x1be  Code  Gb  Dl698AL_Get.o [1]
+fnDl698AL_GetSimpleData_Len
+                             0xf09d   0x32c  Code  Gb  Dl698AL_asn1.o [1]
+fnDl698AL_Get_OIOpSec      0x1'78e1    0xa6  Code  Gb  Dl698AL_process.o [1]
+fnDl698AL_Get_OISec        0x1'78b5    0x22  Code  Gb  Dl698AL_process.o [1]
+fnDl698AL_Handle           0x1'65f9   0x528  Code  Gb  Dl698AL_process.o [1]
+fnDl698AL_Init             0x1'63b3    0x16  Code  Gb  Dl698AL_process.o [1]
+fnDl698AL_Process          0x1'65ad    0x20  Code  Gb  Dl698AL_process.o [1]
+fnDl698AL_Rd_SendData      0x1'6d59   0x15c  Code  Gb  Dl698AL_process.o [1]
+fnDl698AL_Resport_SecRsp
+                           0x1'7d35   0x14a  Code  Gb  Dl698AL_process.o [1]
+fnDl698AL_RlsHandle        0x2'a54d   0x1a4  Code  Gb  Dl698AL_Conn.o [1]
+fnDl698AL_RptNotiHandle
+                           0x2'b8b5   0x1ce  Code  Gb  Dl698AL_Report.o [1]
+fnDl698AL_RptRspHandle     0x2'ba83    0x66  Code  Gb  Dl698AL_Report.o [1]
+fnDl698AL_SecParse_Rn      0x1'7121    0x14  Code  Gb  Dl698AL_process.o [1]
+fnDl698AL_SecReq_Handle
+                           0x1'7135   0x268  Code  Gb  Dl698AL_process.o [1]
+fnDl698AL_SetReqHandle     0x2'b159   0x20c  Code  Gb  Dl698AL_Set.o [1]
+fnDl698AL_ThenGetReqHandle
+                           0x2'ae93   0x118  Code  Gb  Dl698AL_Get.o [1]
+fnDl698AL_TimeTagPkg       0x1'8275    0x9c  Code  Gb  Dl698_AL.o [1]
+fnDl698AL_TimeTag_Handle
+                           0x1'8311    0x3e  Code  Gb  Dl698_AL.o [1]
+fnDl698AL_TimeTag_Valid
+                           0x1'8047   0x226  Code  Gb  Dl698_AL.o [1]
+fnDl698AL_Wr_RecvData      0x1'6b35   0x20a  Code  Gb  Dl698AL_process.o [1]
+fnDl698DL_AddrCheck        0x2'8c39   0x1b4  Code  Gb  Dl698_DL.o [1]
+fnDl698DL_ApduInfoHandle
+                           0x2'9625   0x522  Code  Gb  Dl698_DL.o [1]
+fnDl698DL_EncodePkt        0x2'9121   0x17a  Code  Gb  Dl698_DL.o [1]
+fnDl698DL_Generate_Ack_Frame
+                           0x2'92a5    0xee  Code  Gb  Dl698_DL.o [1]
+fnDl698DL_Generate_I_Frame
+                           0x2'93b1   0x24a  Code  Gb  Dl698_DL.o [1]
+fnDl698DL_Init             0x2'8b7d    0xbc  Code  Gb  Dl698_DL.o [1]
+fnDl698DL_Recv             0x2'9b4d    0x18  Code  Gb  Dl698_DL.o [1]
+fnDl698DL_Send             0x2'9b65   0x128  Code  Gb  Dl698_DL.o [1]
+fnDl698Scom_TimeOutCheck
+                           0x3'3aed    0xea  Code  Gb  Dl698_Scom.o [1]
+fnDl698Scom_Tx             0x3'3bd7   0x12e  Code  Gb  Dl698_Scom.o [1]
+fnDl698_AL_Act_Of_IC       0x2'b379    0x88  Code  Gb  Dl698AL_Act.o [1]
+fnDl698_AL_Get_Of_IC       0x2'a8a1   0x264  Code  Gb  Dl698AL_Get.o [1]
+fnDl698_AL_Set_Of_IC       0x2'afbd    0x38  Code  Gb  Dl698AL_Set.o [1]
+fnDl698_ActMeth            0x1'0ead    0x4c  Code  Gb  Dl698_UserData.o [1]
+fnDl698_Buffer_Alloc       0x1'5fd9    0x90  Code  Gb  Dl698_Memory.o [1]
+fnDl698_Buffer_Free        0x1'6069   0x100  Code  Gb  Dl698_Memory.o [1]
+fnDl698_Buffer_Init        0x1'5fb5    0x24  Code  Gb  Dl698_Memory.o [1]
+fnDl698_FlwRptValue        0x1'0f5d   0x19a  Code  Gb  Dl698_UserData.o [1]
+fnDl698_GetFlwRptFlag      0x1'0f59     0x4  Code  Gb  Dl698_UserData.o [1]
+fnDl698_GetLogicalName     0x2'a82d    0x4a  Code  Gb  Dl698AL_Get.o [1]
+fnDl698_GetNormalValue     0x1'0b9d    0x82  Code  Gb  Dl698_UserData.o [1]
+fnDl698_GetRecordValue     0x1'0c1f    0xc0  Code  Gb  Dl698_UserData.o [1]
+fnDl698_GetUnitScaler      0x2'a711   0x11c  Code  Gb  Dl698AL_Get.o [1]
+fnDl698_GetValue           0x1'0cdf    0x52  Code  Gb  Dl698_UserData.o [1]
+fnDl698_Init               0x2'9caf    0x6a  Code  Gb  Dl698_DL.o [1]
+fnDl698_Process            0x2'9c91    0x1e  Code  Gb  Dl698_DL.o [1]
+fnDl698_ReportValue        0x1'0d31   0x134  Code  Gb  Dl698_UserData.o [1]
+fnDl698_RptRspValue        0x2'b8a1    0x14  Code  Gb  Dl698AL_Report.o [1]
+fnDl698_SafetyCertiHandle
+                           0x1'0ef9    0x54  Code  Gb  Dl698_UserData.o [1]
+fnDl698_Serv_Init          0x1'6191   0x222  Code  Gb  Dl698AL_process.o [1]
+fnDl698_SetValue           0x1'0e69    0x44  Code  Gb  Dl698_UserData.o [1]
+fnDl698_asn1_build_Type
+                             0xf7c1   0x330  Code  Gb  Dl698AL_asn1.o [1]
+fnDl698_memcmp             0x1'5f87    0x22  Code  Gb  Dl698_Memory.o [1]
+fnDl698_memcpy             0x1'5f71    0x16  Code  Gb  Dl698_Memory.o [1]
+fnDl698_memset             0x1'5fa9     0xc  Code  Gb  Dl698_Memory.o [1]
+fnEnergy_CRCCheck            0xe359   0x11c  Code  Gb  Energy.o [1]
+fnEnergy_Change              0xe061    0xb2  Code  Gb  Energy.o [1]
+fnEnergy_DataInit            0xe20f   0x146  Code  Gb  Energy.o [1]
+fnEnergy_EgAdd               0xe8c9    0x54  Code  Gb  Energy.o [1]
+fnEnergy_Exec                0xe9b5   0x1d6  Code  Gb  Energy.o [1]
+fnEnergy_Mantissa            0xe113    0x40  Code  Gb  Energy.o [1]
+fnEnergy_PluseParaInit       0xe153    0xbc  Code  Gb  Energy.o [1]
+fnEnergy_PownDownWriteToE2
+                             0xeb91    0xb8  Code  Gb  Energy.o [1]
+fnEnergy_PulseCalc           0xe499   0x410  Code  Gb  Energy.o [1]
+fnEnergy_WriteToE2           0xe91d    0x98  Code  Gb  Energy.o [1]
+fnEsamOp_CardTxRxFrame     0x1'5321   0x2a4  Code  Gb  Dl698_EsamOp.o [1]
+fnEsamOp_CreatConnect      0x1'568d    0xe0  Code  Gb  Dl698_EsamOp.o [1]
+fnEsamOp_DataToCipherWithMac
+                           0x1'5915    0x62  Code  Gb  Dl698_EsamOp.o [1]
+fnEsamOp_EsamInit          0x1'52d1    0x2c  Code  Gb  Dl698_EsamOp.o [1]
+fnEsamOp_GetSendToEsamFrame
+                           0x1'5b15   0x218  Code  Gb  Dl698_EsamOp.o [1]
+fnEsamOp_Get_PlainDataMac
+                           0x1'57dd    0xbc  Code  Gb  Dl698_EsamOp.o [1]
+fnEsamOp_Get_PlainData_RN_Mac
+                           0x1'5899    0x6c  Code  Gb  Dl698_EsamOp.o [1]
+fnEsamOp_ReadEsam_Info     0x1'55d1    0x46  Code  Gb  Dl698_EsamOp.o [1]
+fnEsamOp_ReadEsam_SafeNameList
+                           0x1'5625    0x54  Code  Gb  Dl698_EsamOp.o [1]
+fnEsamOp_Reset             0x1'5d2d    0xa0  Code  Gb  Dl698_EsamOp.o [1]
+fnEsamOp_RxTxCommhead      0x1'52fd    0x24  Code  Gb  Dl698_EsamOp.o [1]
+fnEsamOp_SessionDestroyed
+                           0x1'576d    0x6a  Code  Gb  Dl698_EsamOp.o [1]
+fnEsamOp_TrmDataToCipherWithMac
+                           0x1'5981   0x11c  Code  Gb  Dl698_EsamOp.o [1]
+fnEsamOp_Tx_Esam           0x1'5aa1    0x66  Code  Gb  Dl698_EsamOp.o [1]
+fnEsam_In_Auth             0x1'5dcd    0x80  Code  Gb  Dl698_EsamOp.o [1]
+fnEsam_Out_Auth            0x1'5ebb    0x86  Code  Gb  Dl698_EsamOp.o [1]
+fnEsam_Random              0x1'5e4d    0x6e  Code  Gb  Dl698_EsamOp.o [1]
+fnEvent_Clr_BroadstaSta
+                           0x1'4645    0x1a  Code  Gb  Event.o [1]
+fnEvent_Clr_PowDnDatetimes
+                           0x1'4685    0x1a  Code  Gb  Event.o [1]
+fnEvent_Clr_PrgQSta        0x1'465f    0x26  Code  Gb  Event.o [1]
+fnEvent_Clr_Status         0x1'31a3   0x2b0  Code  Gb  Event.o [1]
+fnEvent_EvtClr             0x1'3a71   0x1ae  Code  Gb  Event.o [1]
+fnEvent_Exec               0x1'3a61    0x10  Code  Gb  Event.o [1]
+fnEvent_GetStatus          0x1'3453    0x20  Code  Gb  Event.o [1]
+fnEvent_Init               0x1'347d    0x68  Code  Gb  Event.o [1]
+fnEvent_OpExec             0x1'3c39   0x206  Code  Gb  Event.o [1]
+fnEvent_Operation          0x1'2c3d   0x552  Code  Gb  Event.o [1]
+fnEvent_Report             0x1'4a31   0x53a  Code  Gb  Event.o [1]
+fnEvent_SumTime            0x1'44af    0x84  Code  Gb  Event.o [1]
+fnEvent_WriteSumTime       0x1'4545    0xf8  Code  Gb  Event.o [1]
+fnEvent_nphsEvt_Exec       0x1'34f9   0x564  Code  Gb  Event.o [1]
+fnEvtClistDefault_Write
+                             0xfef5    0x4e  Code  Gb  File.o [1]
+fnEvtCoverTail_PowerOn     0x1'2557   0x20e  Code  Gb  Event.o [1]
+fnEvtCoverTail_PwDn        0x1'2775   0x24a  Code  Gb  Event.o [1]
+fnEvtMngPlug_EsamCheck     0x1'3f01    0x66  Code  Gb  Event.o [1]
+fnEvtMngPlug_Init          0x1'3e59    0x6e  Code  Gb  Event.o [1]
+fnEvtMngPlug_PwdnSave      0x1'3ec7    0x32  Code  Gb  Event.o [1]
+fnEvtPrg_End               0x1'514b     0x2  Code  Gb  Event.o [1]
+fnEvtVoltLoss_PowerDwn     0x1'2481    0xd6  Code  Gb  Event.o [1]
+fnFM24CXX_Read             0x2'66ef    0xb8  Code  Gb  Fm24Cxx.o [1]
+fnFM24CXX_Write            0x2'67a7    0xbc  Code  Gb  Fm24Cxx.o [1]
+fnFile_Clr                   0xfe7d    0x78  Code  Gb  File.o [1]
+fnFile_Init                0x1'001d   0x354  Code  Gb  File.o [1]
+fnFile_Read                  0xfe01    0x40  Code  Gb  File.o [1]
+fnFile_Write                 0xfe41    0x3c  Code  Gb  File.o [1]
+fnFind_FrzMinSpecPos       0x1'17c9   0x26a  Code  Gb  Dl698_UserData.o [1]
+fnFm24c256_Init            0x2'6871    0x38  Code  Gb  Fm24Cxx.o [1]
+fnForm_build_Type            0xfaf1   0x1b2  Code  Gb  Dl698AL_asn1.o [1]
+fnFreeze                   0x1'8b45    0x6e  Code  Gb  Freeze.o [1]
+fnFreezeMin_Write          0x1'886d   0x2d4  Code  Gb  Freeze.o [1]
+fnFreezePoint_Calc         0x1'8711   0x144  Code  Gb  Freeze.o [1]
+fnFreeze_MakeUp            0x1'8bc5   0x128  Code  Gb  Freeze.o [1]
+fnFrzClistDefault_Write
+                             0xff43    0xae  Code  Gb  File.o [1]
+fnGPIO_Configuration       0x1'04c9   0x1ec  Code  Gb  xTarget.o [1]
+fnGetCurrTime              0x1'1591     0xc  Code  Gb  Dl698_UserData.o [1]
+fnGetDay                     0xd9eb    0x68  Code  Gb  MyMath.o [1]
+fnGetEvtMngUpdateRcd       0x1'29e5   0x236  Code  Gb  Event.o [1]
+fnGet_ConnServer           0x1'1e9d    0x52  Code  Gb  Dl698_UserData.o [1]
+fnGet_ConnSta              0x1'920d    0x60  Code  Gb  Secret.o [1]
+fnGet_Control                0x3b79   0x176  Code  Gb  Dl698_UserData_Oad2DI.o [1]
+fnGet_CsdNum                 0x5b4d   0x1e4  Code  Gb  Dl698_UserData_Oad2DI.o [1]
+fnGet_DevicePara             0x3445   0x362  Code  Gb  Dl698_UserData_Oad2DI.o [1]
+fnGet_DispData               0x9c25    0xfa  Code  Gb  Dl698_UserData_Oad2DI.o [1]
+fnGet_ESAMPara               0x3cfd   0x4ae  Code  Gb  Dl698_UserData_Oad2DI.o [1]
+fnGet_Energy                  0x1b5    0x46  Code  Gb  Dl698_UserData_Oad2DI.o [1]
+fnGet_EnergyData               0xc1    0xf0  Code  Gb  Dl698_UserData_Oad2DI.o [1]
+fnGet_EvtItem                0x5d39    0x3a  Code  Gb  Dl698_UserData_Oad2DI.o [1]
+fnGet_EvtPara                0x2615   0x4c4  Code  Gb  Dl698_UserData_Oad2DI.o [1]
+fnGet_EvtRecord              0x5dd1   0x80a  Code  Gb  Dl698_UserData_Oad2DI.o [1]
+fnGet_EvtRecordUnit_DataType
+                             0x4ea1    0x7a  Code  Gb  Dl698_UserData_Oad2DI.o [1]
+fnGet_EvtReport              0x4971   0x21c  Code  Gb  Dl698_UserData_Oad2DI.o [1]
+fnGet_FrzItem                0x5d7d    0x36  Code  Gb  Dl698_UserData_Oad2DI.o [1]
+fnGet_FrzMinRecord           0x65f5   0x824  Code  Gb  Dl698_UserData_Oad2DI.o [1]
+fnGet_FrzPara                0x2feb   0x15e  Code  Gb  Dl698_UserData_Oad2DI.o [1]
+fnGet_FrzRecordUnit_DataType
+                             0x4f21    0x38  Code  Gb  Dl698_UserData_Oad2DI.o [1]
+fnGet_InOut_DevicePara       0x4281   0x6d8  Code  Gb  Dl698_UserData_Oad2DI.o [1]
+fnGet_LCDPara                0x3151   0x2ea  Code  Gb  Dl698_UserData_Oad2DI.o [1]
+fnGet_LinkPara               0x37b1   0x3be  Code  Gb  Dl698_UserData_Oad2DI.o [1]
+fnGet_MngOADDataType         0x5a57    0xc6  Code  Gb  Dl698_UserData_Oad2DI.o [1]
+fnGet_Normal                 0xd185   0x178  Code  Gb  Dl698_UserData_Oad2DI.o [1]
+fnGet_OADDataType            0x53ad   0x6aa  Code  Gb  Dl698_UserData_Oad2DI.o [1]
+fnGet_OADStoreData           0x4ba5   0x2ea  Code  Gb  Dl698_UserData_Oad2DI.o [1]
+fnGet_Para                    0xdcd  0x1844  Code  Gb  Dl698_UserData_Oad2DI.o [1]
+fnGet_PhsEvtPara             0x2add   0x50e  Code  Gb  Dl698_UserData_Oad2DI.o [1]
+fnGet_SafeModePara           0x41b5    0xcc  Code  Gb  Dl698_UserData_Oad2DI.o [1]
+fnGet_Var                     0xc7d   0x128  Code  Gb  Dl698_UserData_Oad2DI.o [1]
+fnGet_VarData                 0x1fd   0xa7a  Code  Gb  Dl698_UserData_Oad2DI.o [1]
+fnHarmonic_CheckI          0x2'c68b    0x1e  Code  Gb  Harmonic.o [1]
+fnHarmonic_CheckUn         0x2'c671    0x1a  Code  Gb  Harmonic.o [1]
+fnHarmonic_D2fp_Exec       0x2'c6a9    0x26  Code  Gb  Harmonic.o [1]
+fnHarmonic_Exec            0x2'cb8d   0xb90  Code  Gb  Harmonic.o [1]
+fnHarmonic_FirmParaCheck
+                           0x2'caa9    0x68  Code  Gb  Harmonic.o [1]
+fnHarmonic_FirmParaInit
+                           0x2'cb15    0x4e  Code  Gb  Harmonic.o [1]
+fnHarmonic_GPCorrect       0x2'c74d   0x188  Code  Gb  Harmonic.o [1]
+fnHarmonic_Init            0x2'c6cf    0x7e  Code  Gb  Harmonic.o [1]
+fnHarmonic_PhsCorrect      0x2'c909   0x194  Code  Gb  Harmonic.o [1]
+fnHexToBcd_u16               0xd65b    0x78  Code  Gb  MyMath.o [1]
+fnHexToBcd_u32               0xd6d3    0xd2  Code  Gb  MyMath.o [1]
+fnHexToBcd_u8                0xd629    0x32  Code  Gb  MyMath.o [1]
+fnICEsam_Auth_In_Out       0x2'dbf1    0x52  Code  Gb  Dl645_ICEsam.o [1]
+fnICEsam_Authorization     0x2'dcbd    0xc6  Code  Gb  Dl645_ICEsam.o [1]
+fnICEsam_CardColdReset     0x2'd93d    0x66  Code  Gb  Dl645_ICEsam.o [1]
+fnICEsam_CardTxRxFrame     0x2'd939     0x4  Code  Gb  Dl645_ICEsam.o [1]
+fnICEsam_CloseEsam         0x2'd9a3    0x2e  Code  Gb  Dl645_ICEsam.o [1]
+fnICEsam_EsamReset         0x2'd9d1    0x5c  Code  Gb  Dl645_ICEsam.o [1]
+fnICEsam_HW_RemoteAuth     0x2'dc65    0x58  Code  Gb  Dl645_ICEsam.o [1]
+fnICEsam_MacErrInc         0x1'90c7    0x2c  Code  Gb  Secret.o [1]
+fnICEsam_MoneyProc         0x2'e32d    0xc6  Code  Gb  Dl645_ICEsam.o [1]
+fnICEsam_ReadBin2BinWithMac
+                           0x2'dd89   0x110  Code  Gb  Dl645_ICEsam.o [1]
+fnICEsam_ReadBinFile       0x2'da7d    0x3e  Code  Gb  Dl645_ICEsam.o [1]
+fnICEsam_ReadMoneyBagWithMac
+                           0x2'de9d   0x10e  Code  Gb  Dl645_ICEsam.o [1]
+fnICEsam_ReadRandom        0x2'db8d    0x5e  Code  Gb  Dl645_ICEsam.o [1]
+fnICEsam_ReadRecFile       0x2'dafb    0x2e  Code  Gb  Dl645_ICEsam.o [1]
+fnICEsam_Read_Kx           0x2'db29    0x64  Code  Gb  Dl645_ICEsam.o [1]
+fnICEsam_RemoteControl     0x2'e0d5    0x86  Code  Gb  Dl645_ICEsam.o [1]
+fnICEsam_RxTxCommhead      0x2'da2d    0x1e  Code  Gb  Dl645_ICEsam.o [1]
+fnICEsam_SelectFile        0x2'da4b    0x32  Code  Gb  Dl645_ICEsam.o [1]
+fnICEsam_UpdateRunFile_Clock
+                           0x2'e1c9    0xa4  Code  Gb  Dl645_ICEsam.o [1]
+fnICEsam_UpdateRunFile_Money
+                           0x2'e26d    0xae  Code  Gb  Dl645_ICEsam.o [1]
+fnICEsam_Update_ESAM_Bin_Mac
+                           0x2'e019    0xb8  Code  Gb  Dl645_ICEsam.o [1]
+fnICEsam_VerifyUpdatePSW
+                           0x2'e161    0x60  Code  Gb  Dl645_ICEsam.o [1]
+fnICEsam_WriteBinFile      0x2'dabb    0x40  Code  Gb  Dl645_ICEsam.o [1]
+fnICEsam_WriteBinWithMac
+                           0x2'dfab    0x6a  Code  Gb  Dl645_ICEsam.o [1]
+fnINTRTC_Sleep             0x1'06eb     0xe  Code  Gb  xTarget.o [1]
+fnINTTCAll_Init            0x1'06d5    0x14  Code  Gb  xTarget.o [1]
+fnJudgeTime_FrzMin         0x1'8657    0xba  Code  Gb  Freeze.o [1]
+fnJudge_Value                0xd88f    0x2a  Code  Gb  MyMath.o [1]
+fnJudge_Zero                 0xd875    0x1a  Code  Gb  MyMath.o [1]
+fnKey_Init                 0x3'1fd5    0x18  Code  Gb  Key.o [1]
+fnKey_Scan                 0x3'1fed   0x23e  Code  Gb  Key.o [1]
+fnLVD_Init                 0x1'06b5    0x20  Code  Gb  xTarget.o [1]
+fnMX25LXX_Buf_Read         0x2'6ae1    0x8c  Code  Gb  AT45DB642D.o [1]
+fnMX25LXX_CheckDat         0x2'6c31    0x88  Code  Gb  AT45DB642D.o [1]
+fnMX25LXX_Dly              0x2'68d1    0x10  Code  Gb  AT45DB642D.o [1]
+fnMX25LXX_Init             0x2'68e1    0x3e  Code  Gb  AT45DB642D.o [1]
+fnMX25LXX_MMPage_Prog_Through_Buf
+                           0x2'6b81    0xac  Code  Gb  AT45DB642D.o [1]
+fnMX25LXX_MMPage_To_Buf
+                           0x2'6a6d    0x74  Code  Gb  AT45DB642D.o [1]
+fnMX25LXX_Read             0x2'6cb9    0x6c  Code  Gb  AT45DB642D.o [1]
+fnMX25LXX_SetWritable      0x2'6973    0xb6  Code  Gb  AT45DB642D.o [1]
+fnMX25LXX_WaitRdy          0x2'691f    0x54  Code  Gb  AT45DB642D.o [1]
+fnMX25LXX_Write            0x2'6d29   0x114  Code  Gb  AT45DB642D.o [1]
+fnMX25LXX_eraseSector      0x2'6a29    0x44  Code  Gb  AT45DB642D.o [1]
+fnMainClock_Get            0x2'5391    0x54  Code  Gb  Drive_Clock.o [1]
+fnMainClock_Init           0x2'5355    0x24  Code  Gb  Drive_Clock.o [1]
+fnMeasureAverage_PowerCalc
+                           0x2'4e5f   0x1e4  Code  Gb  Measure.o [1]
+fnMeasureHIARMS_Get        0x2'39bd   0x196  Code  Gb  Measure.o [1]
+fnMeasureHPRMS_Get         0x2'3b89   0x344  Code  Gb  Measure.o [1]
+fnMeasureHURMS_Get         0x2'37f1   0x1b0  Code  Gb  Measure.o [1]
+fnMeasure_DMAReadWaveData
+                           0x2'4e5d     0x2  Code  Gb  Measure.o [1]
+fnMeasure_EMUInit          0x2'1431   0x478  Code  Gb  Measure.o [1]
+fnMeasure_EvtVoltLoss      0x2'35bd   0x206  Code  Gb  Measure.o [1]
+fnMeasure_EvtVoltLossEMUInit
+                           0x2'18b1   0x404  Code  Gb  Measure.o [1]
+fnMeasure_Exec             0x2'3f01   0xf40  Code  Gb  Measure.o [1]
+fnMeasure_FirmParaCheck
+                           0x2'3415    0xb4  Code  Gb  Measure.o [1]
+fnMeasure_FirmParaInit     0x2'1cb9   0x164  Code  Gb  Measure.o [1]
+fnMeasure_Init             0x2'34d1    0xd8  Code  Gb  Measure.o [1]
+fnMeasure_RN8207DTIRM_CommRead
+                           0x2'136d     0x6  Code  Gb  Measure.o [1]
+fnMeasure_RN8207DTIRM_CommWrite
+                           0x2'136b     0x2  Code  Gb  Measure.o [1]
+fnMeasure_TIRM_CommRead
+                           0x2'135b    0x10  Code  Gb  Measure.o [1]
+fnMeasure_TIRM_CommWrite
+                           0x2'1331    0x2a  Code  Gb  Measure.o [1]
+fnMeasure_VoltRepairCorrect
+                           0x2'0b09   0x3fa  Code  Gb  Measure.o [1]
+fnMeasure_VoltRepair_CommRead
+                           0x2'0f09    0x10  Code  Gb  Measure.o [1]
+fnMeasure_VoltRepair_Exe
+                           0x2'0f2d   0x300  Code  Gb  Measure.o [1]
+fnMeasure_WaveColse        0x2'4e5b     0x2  Code  Gb  Measure.o [1]
+fnMeasure_WaveInit         0x2'4e59     0x2  Code  Gb  Measure.o [1]
+fnMemory_Read              0x2'5101   0x11a  Code  Gb  Memory.o [1]
+fnMemory_Write             0x2'521b   0x120  Code  Gb  Memory.o [1]
+fnMinAdd                     0xd905    0x9e  Code  Gb  MyMath.o [1]
+fnMinCount                   0xdcbf     0xe  Code  Gb  MyMath.o [1]
+fnOpenCoverTailEvent       0x1'3f9d   0x38a  Code  Gb  Event.o [1]
+fnOperateNVRAM             0x2'65a7   0x148  Code  Gb  Fm24Cxx.o [1]
+fnOperateSocEE             0x1'0811    0xb2  Code  Gb  xTarget.o [1]
+fnOutput_CheckGataSta      0x3'1c95   0x328  Code  Gb  output.o [1]
+fnOutput_Init              0x3'1be1    0xaa  Code  Gb  output.o [1]
+fnPowerDown_BeforeSleep
+                           0x2'7b59    0x86  Code  Gb  Power_Up_Down.o [1]
+fnPowerDown_Check          0x2'6f95    0xf8  Code  Gb  Power_Up_Down.o [1]
+fnPowerDown_Check::FUrmLowChkCnt
+                        0x1000'fe52     0x1  Data  Lc  Power_Up_Down.o [1]
+fnPowerDown_Handle         0x2'7cf5    0xd2  Code  Gb  Power_Up_Down.o [1]
+fnPowerDown_IOSetSleep     0x2'74e9   0x646  Code  Gb  Power_Up_Down.o [1]
+fnPowerDown_Inactive       0x2'7dc7    0x24  Code  Gb  Power_Up_Down.o [1]
+fnPowerDown_Main           0x2'7c21    0x8e  Code  Gb  Power_Up_Down.o [1]
+fnPowerDown_SetWakeOpIO
+                           0x2'74d1     0xc  Code  Gb  Power_Up_Down.o [1]
+fnPowerDown_Sleep          0x2'7b55     0x4  Code  Gb  Power_Up_Down.o [1]
+fnPowerDown_SleepSet       0x2'7b2f    0x26  Code  Gb  Power_Up_Down.o [1]
+fnPowerDown_SleepWakeOpIO
+                           0x2'74dd     0xc  Code  Gb  Power_Up_Down.o [1]
+fnPowerOn_DrvieInit        0x1'0b8d    0x10  Code  Gb  xTarget.o [1]
+fnPowerUp_AppInit          0x2'742d    0x76  Code  Gb  Power_Up_Down.o [1]
+fnPowerUp_CHKDateTime      0x2'70d5    0xa4  Code  Gb  Power_Up_Down.o [1]
+fnPowerUp_Check            0x2'708d    0x48  Code  Gb  Power_Up_Down.o [1]
+fnPowerUp_CheckUpCoverSta
+                           0x2'71f3    0x1c  Code  Gb  Power_Up_Down.o [1]
+fnPowerUp_Freeze_Event     0x2'7179    0x7a  Code  Gb  Power_Up_Down.o [1]
+fnPowerUp_Init             0x2'72ed   0x138  Code  Gb  Power_Up_Down.o [1]
+fnPowerUp_RTCParaInit      0x2'7225    0xb2  Code  Gb  Power_Up_Down.o [1]
+fnPt_Exec                  0x3'3a29    0x66  Code  Gb  Scom.o [1]
+fnRCC_Configuration        0x1'04c1     0x8  Code  Gb  xTarget.o [1]
+fnRCClock_Init             0x2'5385     0xc  Code  Gb  Drive_Clock.o [1]
+fnRN8302Mode_Init          0x2'1373    0x94  Code  Gb  Measure.o [1]
+fnRN8302_ApiRegister       0x2'c025    0x10  Code  Gb  RN7306.o [1]
+fnRN8302_CorrectionMeter
+                           0x2'1e3d  0x15cc  Code  Gb  Measure.o [1]
+fnRN8302_HSDCMode_Init     0x2'025f   0x130  Code  Gb  Measure.o [1]
+fnRN8302_HSPI_DMAInit      0x2'0977    0x48  Code  Gb  Measure.o [1]
+fnRN8302_Read              0x2'c1df    0xda  Code  Gb  RN7306.o [1]
+fnRN8302_TIRM              0x2'123d    0xf4  Code  Gb  Measure.o [1]
+fnRN8302_Write             0x2'c035   0x1aa  Code  Gb  RN7306.o [1]
+fnRN8611_EnergyPulseIO_Init
+                           0x2'038f    0x66  Code  Gb  Measure.o [1]
+fnRTCDrive_Delay           0x1'0431    0x24  Code  Gb  xTarget.o [1]
+fnRTCDrive_Init            0x1'06e9     0x2  Code  Gb  xTarget.o [1]
+fnRaed_DefaultSecPar       0x1'1169    0x7e  Code  Gb  Dl698_UserData.o [1]
+fnReadAuthOn_Esam          0x1'13b9    0x32  Code  Gb  Dl698_UserData.o [1]
+fnReadConnSize             0x1'1669   0x10e  Code  Gb  Dl698_UserData.o [1]
+fnReadDlyTime_Esam         0x1'1505    0x80  Code  Gb  Dl698_UserData.o [1]
+fnReadMeter_Esam           0x1'1331    0x40  Code  Gb  Dl698_UserData.o [1]
+fnReadPswVer_Esam          0x1'1431    0x32  Code  Gb  Dl698_UserData.o [1]
+fnReadStatus_PrgEnable     0x1'128d    0x1c  Code  Gb  Dl698_UserData.o [1]
+fnRead_Broatcast_SafetyType
+                           0x1'158b     0x6  Code  Gb  Dl698_UserData.o [1]
+fnRead_FormulationSecPar
+                           0x1'11f1    0x60  Code  Gb  Dl698_UserData.o [1]
+fnRead_SecurtyStatus       0x1'125d    0x30  Code  Gb  Dl698_UserData.o [1]
+fnRegState_Detect          0x2'0205    0x4c  Code  Gb  Rn8xxx_Common.o [1]
+fnReportHandle             0x2'baf1    0xdc  Code  Gb  Dl698AL_Report.o [1]
+fnReport_EvtData           0x1'1aa1   0x3aa  Code  Gb  Dl698_UserData.o [1]
+fnReport_Process           0x2'9d49    0x4c  Code  Gb  Dl698_DL.o [1]
+fnResetClear               0x2'd935     0x2  Code  Gb  Dl645_ICEsam.o [1]
+fnResetSet                 0x2'd937     0x2  Code  Gb  Dl645_ICEsam.o [1]
+fnRn8302_HSDCSPI_Init      0x2'09c9    0x6e  Code  Gb  Measure.o [1]
+fnSavePowerOnEvtStop       0x1'5149     0x2  Code  Gb  Event.o [1]
+fnScomPk_ChangeBps         0x3'334f    0x40  Code  Gb  Scom.o [1]
+fnScomPk_Exec              0x3'3825   0x204  Code  Gb  Scom.o [1]
+fnScomPk_Init              0x3'326d    0xe2  Code  Gb  Scom.o [1]
+fnScomSpi_Init             0x3'31af    0xba  Code  Gb  Scom.o [1]
+fnScomStartSend            0x3'33ad   0x114  Code  Gb  Scom.o [1]
+fnScomUart_Init            0x3'30ed    0xc2  Code  Gb  Scom.o [1]
+fnScom_ReadBps             0x3'30a7    0x46  Code  Gb  Scom.o [1]
+fnSecret_Exec              0x1'9049    0x7e  Code  Gb  Secret.o [1]
+fnSecret_Init              0x1'8d0d   0x20c  Code  Gb  Secret.o [1]
+fnSecret_Verify            0x1'8f1d   0x10e  Code  Gb  Secret.o [1]
+fnSetCurrTime              0x1'7eff    0x8c  Code  Gb  Dl698_AL.o [1]
+fnSet_ComAddr_UserNo         0x70b3    0x98  Code  Gb  Dl698_UserData_Oad2DI.o [1]
+fnSet_Control                0x9ab9   0x152  Code  Gb  Dl698_UserData_Oad2DI.o [1]
+fnSet_DateTime               0x6e25   0x28e  Code  Gb  Dl698_UserData_Oad2DI.o [1]
+fnSet_DeviceNo               0x7d8b    0x3e  Code  Gb  Dl698_UserData_Oad2DI.o [1]
+fnSet_DevicePara             0x7fc3   0x2a4  Code  Gb  Dl698_UserData_Oad2DI.o [1]
+fnSet_DispPara               0x8909   0x340  Code  Gb  Dl698_UserData_Oad2DI.o [1]
+fnSet_EvtPara                0x8d39   0x49c  Code  Gb  Dl698_UserData_Oad2DI.o [1]
+fnSet_Expression             0x7dc9    0xa6  Code  Gb  Dl698_UserData_Oad2DI.o [1]
+fnSet_FactoryPara            0x82d1   0x348  Code  Gb  Dl698_UserData_Oad2DI.o [1]
+fnSet_FrzPara                0x95b9   0x4fc  Code  Gb  Dl698_UserData_Oad2DI.o [1]
+fnSet_HolidayPara            0x76b1   0x146  Code  Gb  Dl698_UserData_Oad2DI.o [1]
+fnSet_LCDPara                0x737b     0x4  Code  Gb  Dl698_UserData_Oad2DI.o [1]
+fnSet_LinkPara               0x8281    0x4e  Code  Gb  Dl698_UserData_Oad2DI.o [1]
+fnSet_MBackUpEnergy          0x7bb1   0x1da  Code  Gb  Dl698_UserData_Oad2DI.o [1]
+fnSet_MeterPlace             0x71f7   0x184  Code  Gb  Dl698_UserData_Oad2DI.o [1]
+fnSet_Normal                 0xd2fd    0xe6  Code  Gb  Dl698_UserData_Oad2DI.o [1]
+fnSet_POTTable               0x7a59   0x158  Code  Gb  Dl698_UserData_Oad2DI.o [1]
+fnSet_Para                   0x861d   0x1d6  Code  Gb  Dl698_UserData_Oad2DI.o [1]
+fnSet_PhsEventPara           0x91e5   0x3b0  Code  Gb  Dl698_UserData_Oad2DI.o [1]
+fnSet_RatePara               0x7459   0x250  Code  Gb  Dl698_UserData_Oad2DI.o [1]
+fnSet_RmDate                 0x7e6f   0x154  Code  Gb  Dl698_UserData_Oad2DI.o [1]
+fnSet_SafeModePara           0x8c4d    0xd8  Code  Gb  Dl698_UserData_Oad2DI.o [1]
+fnSet_SwitchTime             0x737f    0xda  Code  Gb  Dl698_UserData_Oad2DI.o [1]
+fnSet_UserNo                 0x715d    0x9a  Code  Gb  Dl698_UserData_Oad2DI.o [1]
+fnSet_VarPara                0x87f3   0x10e  Code  Gb  Dl698_UserData_Oad2DI.o [1]
+fnSet_WeekendPOT             0x7849    0x40  Code  Gb  Dl698_UserData_Oad2DI.o [1]
+fnSet_WeekendWord            0x77fd    0x4c  Code  Gb  Dl698_UserData_Oad2DI.o [1]
+fnSet_ZoneTable              0x7889   0x1c8  Code  Gb  Dl698_UserData_Oad2DI.o [1]
+fnSocEE_Read               0x1'08c3    0x9c  Code  Gb  xTarget.o [1]
+fnSocEE_Write              0x1'095f    0x9c  Code  Gb  xTarget.o [1]
+fnSocRegCheck              0x1'0a01   0x136  Code  Gb  xTarget.o [1]
+fnSocRegCheckAddAll        0x1'0b37    0x3c  Code  Gb  xTarget.o [1]
+fnStamp_Through            0x2'6f4d    0x22  Code  Gb  Misc.o [1]
+fnSubClock_Init            0x2'5379     0xc  Code  Gb  Drive_Clock.o [1]
+fnSum                        0xd59d    0x24  Code  Gb  MyMath.o [1]
+fnSysClock_Write           0x1'06f9    0x3e  Code  Gb  xTarget.o [1]
+fnSysDateTimes             0x1'0737    0x5a  Code  Gb  xTarget.o [1]
+fnTarget_Init              0x1'0791    0x44  Code  Gb  xTarget.o [1]
+fnTwoDateApart_DayCount
+                             0xda53   0x17c  Code  Gb  MyMath.o [1]
+fnTwoDateApart_MinuteCount
+                             0xdbcf    0x62  Code  Gb  MyMath.o [1]
+fnTwoDateApart_SecondCount
+                           0x1'958d    0x34  Code  Gb  Dl645B_Com.o [1]
+fnUpDate_FrzMinParaOffPos
+                             0x4f7d   0x292  Code  Gb  Dl698_UserData_Oad2DI.o [1]
+fnUpDate_FrzParaOffPos       0x5219   0x188  Code  Gb  Dl698_UserData_Oad2DI.o [1]
+fnUpdateAuthOn             0x1'13eb    0x3c  Code  Gb  Dl698_UserData.o [1]
+fnUpdateMeterNo            0x1'1371    0x44  Code  Gb  Dl698_UserData.o [1]
+fnUpdatePswSta             0x1'1463    0x9a  Code  Gb  Dl698_UserData.o [1]
+fnUpdate_RptStatus         0x1'4f6b   0x114  Code  Gb  Event.o [1]
+fnWDT_Restart              0x1'04ad     0x8  Code  Gb  xTarget.o [1]
+fnWaveHfrmsSmple           0x2'04d9   0x190  Code  Gb  Measure.o [1]
+fnWaveHsdcSpi_AdcCheck     0x2'06ed   0x28a  Code  Gb  Measure.o [1]
+fnWaveHsdcSpi_ToHmonic     0x2'0681    0x44  Code  Gb  Measure.o [1]
+fnWaveSpiOutToExModule     0x2'0469    0x22  Code  Gb  Measure.o [1]
+fnWaveSpiOut_Init          0x2'0445    0x24  Code  Gb  Measure.o [1]
+fnWaveSpiOut_SynSmplPoint
+                           0x2'03f5    0x50  Code  Gb  Measure.o [1]
+fnWeek_Calculate             0xd5c1    0x68  Code  Gb  MyMath.o [1]
+fnWriteConnSize            0x1'1777    0x34  Code  Gb  Dl698_UserData.o [1]
+fnWrite_Broatcast_SafetyType
+                           0x1'1585     0x6  Code  Gb  Dl698_UserData.o [1]
+fnWrite_PowDn_FrzDayTime
+                           0x1'85f5    0x28  Code  Gb  Freeze.o [1]
+fnWrite_PowDn_FrzRmDayTime
+                           0x1'861d    0x3a  Code  Gb  Freeze.o [1]
+fnWrite_PownDownEvtToE2
+                           0x1'4341    0x72  Code  Gb  Event.o [1]
+fnWrite_PownDownEvtToFlash
+                           0x1'43bd    0xf2  Code  Gb  Event.o [1]
+gActSessionDestroyed    0x1000'fe51     0x1  Data  Gb  Dl698_EsamOp.o [1]
+gBufferTemp_InfoList    0x1000'fd10    0x18  Data  Gb  Globals.o [1]
+gConnResRnLen           0x1000'fe46     0x2  Data  Gb  Dl698_EsamOp.o [1]
+gDl698AL_SecParWld_List
+                        0x1000'0100    0x44  Data  Gb  Dl698_UserData.o [1]
+gDl698AL_SecPar_List    0x1000'00a4    0x5c  Data  Gb  Dl698_UserData.o [1]
+gDl698AL_Server         0x1000'6508  0x2270  Data  Gb  Dl698_Globals.o [1]
+gDl698_Buffer           0x1000'3d08  0x2800  Data  Gb  Dl698_Memory.o [1]
+gDl698_BufferInfo_BusyBlk
+                        0x1000'fe34     0x4  Data  Gb  Dl698_Memory.o [1]
+gDl698_BufferInfo_IdleBlk
+                        0x1000'00a0     0x4  Data  Gb  Dl698_Memory.o [1]
+gDl698_Buffer_InfoList  0x1000'faf4    0x50  Data  Gb  Dl698_Memory.o [1]
+gDl698_HDR2UnitScaList_IC01
+                           0x3'9220    0x50  Data  Gb  Dl698_ICData.o [1]
+gDl698_HDRUnitScaList_IC01
+                           0x3'91d0    0x50  Data  Gb  Dl698_ICData.o [1]
+gDl698_HDRUnitScaList_IC03
+                           0x3'9c2c     0x4  Data  Gb  Dl698_ICData.o [1]
+gDl698_HDRUnitScaList_IC04
+                           0x3'9a1c    0x10  Data  Gb  Dl698_ICData.o [1]
+gDl698_MantissaUnitScaList_IC01
+                           0x3'9180    0x50  Data  Gb  Dl698_ICData.o [1]
+gDl698_NumIC               0x3'96a8    0x34  Data  Gb  Dl698_ICData.o [1]
+gDl698_OIList           0x1000'0038    0x68  Data  Gb  Dl698_ICData.o [1]
+gDl698_OIList_IC01         0x3'90e0    0x50  Data  Gb  Dl698_ICData.o [1]
+gDl698_OIList_IC02         0x1'0412     0x2  Data  Gb  Dl698_ICData.o [1]
+gDl698_OIList_IC03         0x3'9ad0     0xc  Data  Gb  Dl698_ICData.o [1]
+gDl698_OIList_IC04         0x3'9ae8     0xc  Data  Gb  Dl698_ICData.o [1]
+gDl698_OIList_IC05         0x3'9b00     0xc  Data  Gb  Dl698_ICData.o [1]
+gDl698_OIList_IC06         0x3'996c    0x14  Data  Gb  Dl698_ICData.o [1]
+gDl698_OIList_IC07         0x3'9994    0x14  Data  Gb  Dl698_ICData.o [1]
+gDl698_OIList_IC08         0x3'9310    0x48  Data  Gb  Dl698_ICData.o [1]
+gDl698_OIList_IC09         0x1'242a     0x2  Data  Gb  Dl698_ICData.o [1]
+gDl698_OIList_IC10         0x1'247e     0x2  Data  Gb  Dl698_ICData.o [1]
+gDl698_OIList_IC11         0x1'958a     0x2  Data  Gb  Dl698_ICData.o [1]
+gDl698_OIList_IC12         0x2'50fe     0x2  Data  Gb  Dl698_ICData.o [1]
+gDl698_OIList_IC13         0x2'c022     0x2  Data  Gb  Dl698_ICData.o [1]
+gDl698_OIList_IC14         0x2'c66e     0x2  Data  Gb  Dl698_ICData.o [1]
+gDl698_OIList_IC15         0x2'f4b2     0x2  Data  Gb  Dl698_ICData.o [1]
+gDl698_OIList_IC16         0x2'f56e     0x2  Data  Gb  Dl698_ICData.o [1]
+gDl698_OIList_IC17         0x2'f5a2     0x2  Data  Gb  Dl698_ICData.o [1]
+gDl698_OIList_IC18         0x3'9b94     0x8  Data  Gb  Dl698_ICData.o [1]
+gDl698_OIList_IC19         0x2'f5a6     0x2  Data  Gb  Dl698_ICData.o [1]
+gDl698_OIList_IC20         0x3'01d2     0x2  Data  Gb  Dl698_ICData.o [1]
+gDl698_OIList_IC21         0x3'01f2     0x2  Data  Gb  Dl698_ICData.o [1]
+gDl698_OIList_IC22         0x3'99a8    0x14  Data  Gb  Dl698_ICData.o [1]
+gDl698_OIList_IC23         0x3'04aa     0x2  Data  Gb  Dl698_ICData.o [1]
+gDl698_OIList_IC24         0x3'495e     0x2  Data  Gb  Dl698_ICData.o [1]
+gDl698_OIList_IC25         0x3'982a     0x2  Data  Gb  Dl698_ICData.o [1]
+gDl698_OIList_IC26         0x3'9836     0x2  Data  Gb  Dl698_ICData.o [1]
+gDl698_OIList_NUMBER       0x3'9c5e     0x1  Data  Gb  Dl698_ICData.o [1]
+gDl698_UnitScaList_IC01
+                           0x3'9130    0x50  Data  Gb  Dl698_ICData.o [1]
+gDl698_UnitScaList_IC02
+                           0x1'1f2e     0x2  Data  Gb  Dl698_ICData.o [1]
+gDl698_UnitScaList_IC03
+                           0x3'9adc     0xc  Data  Gb  Dl698_ICData.o [1]
+gDl698_UnitScaList_IC04
+                           0x3'9af4     0xc  Data  Gb  Dl698_ICData.o [1]
+gDl698_UnitScaList_IC05
+                           0x3'9b0c     0xc  Data  Gb  Dl698_ICData.o [1]
+gDl698_UnitScaList_IC06
+                           0x3'9980    0x14  Data  Gb  Dl698_ICData.o [1]
+gILastBuf               0x1000'fe4f     0x1  Data  Gb  BSP_Tmp.o [1]
+gSa                     0x1000'fe08     0x8  Data  Gb  Dl698_DL.o [1]
+gTempData               0x1000'fda8    0x10  Data  Gb  BSP_Tmp.o [1]
+gTempLastBf4Sum         0x1000'fc94    0x20  Data  Gb  BSP_Tmp.o [1]
+gTempLastBuf            0x1000'f748    0x80  Data  Gb  BSP_Tmp.o [1]
+gTempLastLt4Sum         0x1000'fc74    0x20  Data  Gb  BSP_Tmp.o [1]
+gTempRangeSign          0x1000'fe4e     0x1  Data  Gb  BSP_Tmp.o [1]
+gTempRangeValue         0x1000'fe44     0x2  Data  Gb  BSP_Tmp.o [1]
+gTemperSchoolParaMem    0x1000'f97c    0x60  Data  Gb  BSP_Tmp.o [1]
+gTemperSchoolParaTemp   0x1000'f9dc    0x60  Data  Gb  BSP_Tmp.o [1]
+gUserCfg                0x1000'0008    0x30  Data  Gb  Dl698_DL.o [1]
+gain                    0x1000'fe28     0x4  Data  Lc  app_rn7306.o [1]
+getChipid                  0x3'0839    0x9c  Code  Gb  utils.o [4]
+getMipAddr                 0x3'08d5    0x6c  Code  Gb  utils.o [4]
+get_target_freq            0x2'fbd1    0x80  Code  Lc  sysctrl.o [4]
+lastRxBufferSize        0x1000'fe48     0x2  Data  Gb  Drive_AllINT.o [1]
+ldo_adj_a0                 0x3'2265   0x1d4  Code  Lc  sysupdate.o [4]
+ldo_adj_a1                 0x3'24b9   0x1ea  Code  Gb  sysupdate.o [4]
+ldo_auto_adj               0x3'2701    0x24  Code  Lc  sysupdate.o [4]
+loscCalc                   0x2'f73d    0xb0  Code  Lc  sysctrl.o [4]
+loscCheck                  0x2'f7ed    0x5a  Code  Lc  sysctrl.o [4]
+main                       0x3'85b1    0xc0  Code  Gb  main.o [1]
+math_error                 0x2'e443    0x56  Code  Gb  app_rn7306.o [1]
+memcmp                     0x3'01d5          Code  Gb  memcmp.o [5]
+nvmWrEnable                0x3'0b75    0x28  Code  Gb  utils.o [4]
+pDl698DL_Channel        0x1000'fe30     0x4  Data  Gb  Dl698_Globals.o [1]
+parameter               0x1000'fc20    0x2c  Data  Gb  app_rn7306.o [1]
+pgain                   0x1000'fdf0     0x8  Data  Lc  app_rn7306.o [1]
+phs_err_to_gain            0x2'e4f1    0x30  Code  Gb  app_rn7306.o [1]
+phs_gain_to_err            0x2'e499    0x58  Code  Gb  app_rn7306.o [1]
+rn7306_cail_fine_phs_error_xiebo
+                           0x2'e537   0x10c  Code  Gb  app_rn7306.o [1]
+rn7306_write_enable        0x2'e521    0x16  Code  Gb  app_rn7306.o [1]
+rtc_Delay                  0x2'6021    0x24  Code  Gb  Rn8xxx_RTC.o [1]
+sEmuAdcRecvBuf          0x1000'e7a8   0x484  Data  Gb  Measure.o [1]
+sHmWave                 0x1000'01b8  0x3b50  Data  Gb  Measure.o [1]
+sWaveSpiOut             0x1000'a6d8  0x1224  Data  Gb  Measure.o [1]
+sar_measure                0x3'2439    0x5a  Code  Lc  sysupdate.o [4]
+scom_update_info           0x3'34c5    0xb6  Code  Gb  Scom.o [1]
+setMipTW                   0x2'f5a9   0x194  Code  Lc  sysctrl.o [4]
+set_ldo_mode               0x2'fc5d    0x92  Code  Lc  sysctrl.o [4]
+spl_ra9103a_conf           0x3'8ab8    0x88  Data  Lc  sysupdate.o [4]
+spl_ra9103c_conf           0x3'87c8    0xa0  Data  Lc  sysupdate.o [4]
+spl_ra9103d_conf           0x3'8b40    0x88  Data  Lc  sysupdate.o [4]
+spl_ra9103e_conf           0x3'8670    0xb8  Data  Lc  sysupdate.o [4]
+spl_ra9103f_conf           0x3'84f0    0xc0  Data  Lc  sysupdate.o [4]
+spl_ra9103g_conf           0x3'8868    0xa0  Data  Lc  sysupdate.o [4]
+spl_ra9701a_conf           0x3'8bc8    0x88  Data  Lc  sysupdate.o [4]
+sqrt                       0x2'f3f3          Code  Gb  sqrt.o [3]
+sqrtl                      0x2'f3f3          Code  Gb  sqrt.o [3]
+statusOAD                  0x3'9bbc     0x8  Data  Gb  Dl698_UserData.o [1]
+strcpy                     0x3'4d0d          Code  Gb  strcpy.o [5]
+sumCheck                   0x3'0b25    0x1a  Code  Lc  utils.o [4]
+sysmodeWrite               0x2'fd01   0x140  Code  Lc  sysctrl.o [4]
+sysmode_params_check       0x2'fe45    0xe4  Code  Lc  sysctrl.o [4]
+usTimeout                  0x3'0a0d   0x114  Code  Gb  utils.o [4]
+us_cycle                   0x3'99f8    0x14  Data  Lc  utils.o [4]
+us_freq                    0x3'99e4    0x14  Data  Lc  utils.o [4]
+vbat_reset                 0x3'0ca9    0xc8  Code  Gb  utils.o [4]
+
+
+[1] = D:\IAR Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Obj
+[2] = dl6M_tln.a
+[3] = m6M_tl.a
+[4] = rn8xxx_v2_lib.a
+[5] = rt6M_tl.a
+[6] = shb_l.a
+
+  218'212 bytes of readonly  code memory
+   22'985 bytes of readonly  data memory
+   68'819 bytes of readwrite data memory
+
+Errors: none
+Warnings: 2

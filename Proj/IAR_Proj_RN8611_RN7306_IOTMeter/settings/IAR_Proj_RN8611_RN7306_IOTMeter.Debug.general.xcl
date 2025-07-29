@@ -1,0 +1,15 @@
+"D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\bin\armproc.dll" 
+
+"D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\bin\armjlink2.dll" 
+
+"D:\IAR Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Debug\Exe\IAR_Proj_RN8611_RN7306_IOTMeter.out" 
+
+--plugin="D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\bin\armbat.dll" 
+
+--macro="D:\IAR Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Support\FlashPrg\RN8xxx_v2.mac" 
+
+--flash_loader="D:\IAR Projects\IotMeter_Rn8611_7306_RNW_SVN-250715\Proj\IAR_Proj_RN8611_RN7306_IOTMeter\Support\FlashPrg\FlashRN8xxx_V2_512KB.board" 
+
+
+
+
